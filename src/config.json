@@ -1,0 +1,18 @@
+{
+  "endpoint": "http://ada01.ujaen.es:8080/v1/chat/completions",
+  "api_key_env": "VLLM_API_KEY",
+  "workers": 24,
+  "models": [
+    {
+      "name": "gemma-4-E4B-it",
+      "family": "gemma-4",
+      "size": "small"
+    },
+    {
+      "name": "gemma-4-31B-it",
+      "family": "gemma-4",
+      "size": "large"
+    }
+  ],
+  "answer_mode": "brief"
+}

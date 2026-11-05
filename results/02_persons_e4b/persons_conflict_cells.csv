@@ -1,0 +1,1679 @@
+uid,n,person,attr,correct,in_domain,intrusion,known
+lgp-test-4x4-13|persons_conflict,4,Nico Rosberg,Mother,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x4-13|persons_conflict,4,Marion Cotillard,Mother,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-4x4-13|persons_conflict,4,Marion Cotillard,Height,True,True,False,True
+lgp-test-4x4-13|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Kristers Aparjods,BirthPlace,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Yevgeny Grishin,Mother,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Yevgeny Grishin,BirthPlace,True,True,False,False
+lgp-test-4x4-13|persons_conflict,4,Yevgeny Grishin,Height,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x4-10|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Lyhanna Rameau Bernard,EducatedAt,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Giovanni Reyna,BirthPlace,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-4x4-10|persons_conflict,4,Giovanni Reyna,EducatedAt,True,True,False,False
+lgp-test-4x4-10|persons_conflict,4,Jean-Luc Godard,BirthPlace,True,True,False,True
+lgp-test-4x4-10|persons_conflict,4,Jean-Luc Godard,Occupation,True,True,False,True
+lgp-test-4x4-10|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Kajol,Height,True,True,False,True
+lgp-test-4x4-15|persons_conflict,4,Kajol,EducatedAt,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Kajol,Occupation,True,True,False,True
+lgp-test-4x4-15|persons_conflict,4,Dougie Hamilton,Height,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Eilish McColgan,Height,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Eilish McColgan,EducatedAt,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Camilla Pytlick,Height,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-4x4-15|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x4-1|persons_conflict,4,Jean-Luc Godard,Height,False,True,True,False
+lgp-test-4x4-1|persons_conflict,4,Jean-Luc Godard,Occupation,False,True,False,True
+lgp-test-4x4-1|persons_conflict,4,Jean-Luc Godard,BirthPlace,False,True,False,True
+lgp-test-4x4-1|persons_conflict,4,Leni Klum,Height,False,True,True,False
+lgp-test-4x4-1|persons_conflict,4,Leni Klum,Occupation,True,True,False,False
+lgp-test-4x4-1|persons_conflict,4,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-4x4-1|persons_conflict,4,Victoria,Height,False,True,False,False
+lgp-test-4x4-1|persons_conflict,4,Victoria,Occupation,False,True,False,False
+lgp-test-4x4-1|persons_conflict,4,Victoria,BirthPlace,False,True,True,False
+lgp-test-4x4-1|persons_conflict,4,Konstantin Rokossovsky,Height,False,True,False,False
+lgp-test-4x4-1|persons_conflict,4,Konstantin Rokossovsky,Occupation,False,True,True,True
+lgp-test-4x4-1|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,False,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Alana Barber,Occupation,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Alana Barber,BirthPlace,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,"Nancy Swider-Peltz, Jr",Occupation,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,"Nancy Swider-Peltz, Jr",EducatedAt,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x4-0|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Irene Urdangarin y de Borbón,Height,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Irene Urdangarin y de Borbón,Mother,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Camilla Pytlick,Height,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Kyōmi Shimizu,Mother,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x4-16|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Maria Magatti,Mother,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Naoya Tsukahara,Height,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Naoya Tsukahara,Mother,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Anti Saarepuu,Occupation,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Anti Saarepuu,Height,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Anti Saarepuu,Mother,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Eilish McColgan,Height,True,True,False,False
+lgp-test-4x4-11|persons_conflict,4,Eilish McColgan,Mother,True,True,False,False
+lgp-test-4x4-14|persons_conflict,4,Kajol,EducatedAt,True,True,False,False
+lgp-test-4x4-14|persons_conflict,4,Kajol,BirthPlace,False,True,False,True
+lgp-test-4x4-14|persons_conflict,4,Kajol,Occupation,True,True,False,True
+lgp-test-4x4-14|persons_conflict,4,Kelly McCormick,EducatedAt,False,True,False,False
+lgp-test-4x4-14|persons_conflict,4,Kelly McCormick,BirthPlace,False,True,False,False
+lgp-test-4x4-14|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x4-14|persons_conflict,4,José Luis Rodríguez Zapatero,EducatedAt,False,True,False,False
+lgp-test-4x4-14|persons_conflict,4,José Luis Rodríguez Zapatero,BirthPlace,False,True,True,False
+lgp-test-4x4-14|persons_conflict,4,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-4x4-14|persons_conflict,4,"Nancy Swider-Peltz, Jr",EducatedAt,False,True,True,False
+lgp-test-4x4-14|persons_conflict,4,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-4x4-14|persons_conflict,4,"Nancy Swider-Peltz, Jr",Occupation,True,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Marion Cotillard,Mother,False,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Marion Cotillard,Occupation,False,True,False,True
+lgp-test-4x4-19|persons_conflict,4,Marion Cotillard,BirthPlace,False,True,True,True
+lgp-test-4x4-19|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Michael Pinske,Mother,False,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Michael Pinske,Occupation,False,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Michael Pinske,BirthPlace,False,True,True,False
+lgp-test-4x4-19|persons_conflict,4,Yevgeny Grishin,Mother,True,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Yevgeny Grishin,Occupation,True,True,False,False
+lgp-test-4x4-19|persons_conflict,4,Yevgeny Grishin,BirthPlace,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Cosmo Duff-Gordon,EducatedAt,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Cosmo Duff-Gordon,Mother,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Marion Cotillard,EducatedAt,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-4x4-17|persons_conflict,4,Marion Cotillard,Mother,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-4x4-17|persons_conflict,4,José Luis Rodríguez Zapatero,Mother,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Massinissa of the Rif,EducatedAt,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Massinissa of the Rif,Occupation,True,True,False,False
+lgp-test-4x4-17|persons_conflict,4,Massinissa of the Rif,Mother,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,Élodie Clouvel,Mother,False,True,True,False
+lgp-test-4x4-12|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,José Luis Rodríguez Zapatero,Mother,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,José Luis Rodríguez Zapatero,BirthPlace,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,Julia Murray,Mother,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,Julia Murray,EducatedAt,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,Julia Murray,BirthPlace,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,Irene Urdangarin y de Borbón,Mother,False,True,True,False
+lgp-test-4x4-12|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,True,True,False,False
+lgp-test-4x4-12|persons_conflict,4,Irene Urdangarin y de Borbón,BirthPlace,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Andy Murray,Occupation,True,True,False,True
+lgp-test-4x4-22|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Andy Murray,BirthPlace,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x4-22|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Alana Barber,Occupation,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x4-22|persons_conflict,4,Alana Barber,BirthPlace,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Victoria,EducatedAt,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Victoria,Height,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Victoria,BirthPlace,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Dougie Hamilton,Height,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Dougie Hamilton,BirthPlace,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Matt Kalil,EducatedAt,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Matt Kalil,Height,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,Matt Kalil,BirthPlace,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,"Nancy Swider-Peltz, Jr",EducatedAt,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,"Nancy Swider-Peltz, Jr",Height,True,True,False,False
+lgp-test-4x4-18|persons_conflict,4,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Gayatri Gopichand,Occupation,False,True,True,False
+lgp-test-4x4-2|persons_conflict,4,Gayatri Gopichand,BirthPlace,False,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Gayatri Gopichand,EducatedAt,False,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Kristers Aparjods,Occupation,False,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Kristers Aparjods,BirthPlace,False,True,True,False
+lgp-test-4x4-2|persons_conflict,4,Kristers Aparjods,EducatedAt,False,True,True,False
+lgp-test-4x4-2|persons_conflict,4,Alana Barber,Occupation,True,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Alana Barber,BirthPlace,True,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Lyhanna Rameau Bernard,Occupation,False,True,True,False
+lgp-test-4x4-2|persons_conflict,4,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-4x4-2|persons_conflict,4,Lyhanna Rameau Bernard,EducatedAt,False,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Maria Magatti,Mother,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Yevgeny Grishin,Height,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Yevgeny Grishin,Mother,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Yevgeny Grishin,Occupation,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x4-26|persons_conflict,4,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-4x4-26|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Julia Murray,Mother,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Julia Murray,Occupation,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Julia Murray,EducatedAt,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Willy Raine,Mother,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Willy Raine,Occupation,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Willy Raine,EducatedAt,False,True,True,False
+lgp-test-4x4-20|persons_conflict,4,Konstantin Rokossovsky,Mother,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Konstantin Rokossovsky,Occupation,False,True,False,True
+lgp-test-4x4-20|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Irene Urdangarin y de Borbón,Mother,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Irene Urdangarin y de Borbón,Occupation,False,True,False,False
+lgp-test-4x4-20|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,False,True,True,False
+lgp-test-4x4-23|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Jean-Luc Godard,Occupation,True,True,False,True
+lgp-test-4x4-23|persons_conflict,4,Jean-Luc Godard,Height,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Erika Piancastelli,EducatedAt,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Erika Piancastelli,Height,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Irene Urdangarin y de Borbón,Height,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Cosmo Duff-Gordon,EducatedAt,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-4x4-23|persons_conflict,4,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Kyōmi Shimizu,Mother,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Marion Cotillard,EducatedAt,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Marion Cotillard,Mother,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-4x4-21|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Andy Murray,Mother,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Andy Murray,BirthPlace,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Paige,Mother,True,True,False,False
+lgp-test-4x4-21|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Jean-Luc Godard,Occupation,True,True,False,True
+lgp-test-4x4-28|persons_conflict,4,Jean-Luc Godard,BirthPlace,True,True,False,True
+lgp-test-4x4-28|persons_conflict,4,Jean-Luc Godard,Height,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Dougie Hamilton,BirthPlace,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Dougie Hamilton,Height,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Camilla Pytlick,BirthPlace,True,True,False,False
+lgp-test-4x4-28|persons_conflict,4,Camilla Pytlick,Height,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-4x4-27|persons_conflict,4,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-4x4-27|persons_conflict,4,Marion Cotillard,EducatedAt,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Naoya Tsukahara,BirthPlace,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-4x4-27|persons_conflict,4,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,"Nancy Swider-Peltz, Jr",Occupation,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,"Nancy Swider-Peltz, Jr",Height,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,"Nancy Swider-Peltz, Jr",EducatedAt,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Erika Piancastelli,Height,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Erika Piancastelli,EducatedAt,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Naoya Tsukahara,Height,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Eilish McColgan,Height,True,True,False,False
+lgp-test-4x4-24|persons_conflict,4,Eilish McColgan,EducatedAt,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Maria Magatti,Mother,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Maria Magatti,BirthPlace,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Naoya Tsukahara,Height,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Naoya Tsukahara,Mother,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Naoya Tsukahara,BirthPlace,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Andy Murray,Height,True,True,False,True
+lgp-test-4x4-25|persons_conflict,4,Andy Murray,Mother,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Andy Murray,BirthPlace,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Eilish McColgan,Height,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Eilish McColgan,Mother,True,True,False,False
+lgp-test-4x4-25|persons_conflict,4,Eilish McColgan,BirthPlace,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Lyhanna Rameau Bernard,EducatedAt,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Kyōmi Shimizu,Mother,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Ilia Malinin,EducatedAt,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Ilia Malinin,BirthPlace,True,True,False,False
+lgp-test-4x4-29|persons_conflict,4,Ilia Malinin,Mother,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Julia Murray,Occupation,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Julia Murray,Mother,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Julia Murray,BirthPlace,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Dougie Hamilton,Mother,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Dougie Hamilton,BirthPlace,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-4x4-3|persons_conflict,4,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-4x4-3|persons_conflict,4,Giovanni Reyna,BirthPlace,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Andy Murray,Height,True,True,False,True
+lgp-test-4x4-31|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Andy Murray,Occupation,True,True,False,True
+lgp-test-4x4-31|persons_conflict,4,Anti Saarepuu,Height,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Anti Saarepuu,EducatedAt,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Anti Saarepuu,Occupation,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Jean-Luc Godard,Height,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x4-31|persons_conflict,4,Jean-Luc Godard,Occupation,True,True,False,True
+lgp-test-4x4-34|persons_conflict,4,Eilish McColgan,Mother,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Eilish McColgan,EducatedAt,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Eilish McColgan,Height,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Willy Raine,Mother,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Willy Raine,EducatedAt,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Willy Raine,Height,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Alana Barber,Mother,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Alana Barber,Height,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Anti Saarepuu,Mother,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Anti Saarepuu,EducatedAt,True,True,False,False
+lgp-test-4x4-34|persons_conflict,4,Anti Saarepuu,Height,True,True,False,False
+lgp-test-4x4-30|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x4-30|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x4-30|persons_conflict,4,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-4x4-30|persons_conflict,4,Ilia Malinin,BirthPlace,False,True,False,False
+lgp-test-4x4-30|persons_conflict,4,Ilia Malinin,EducatedAt,False,True,True,False
+lgp-test-4x4-30|persons_conflict,4,Ilia Malinin,Height,True,True,False,False
+lgp-test-4x4-30|persons_conflict,4,Marion Cotillard,BirthPlace,False,True,False,True
+lgp-test-4x4-30|persons_conflict,4,Marion Cotillard,EducatedAt,False,True,True,False
+lgp-test-4x4-30|persons_conflict,4,Marion Cotillard,Height,False,True,True,True
+lgp-test-4x4-30|persons_conflict,4,Jean-Luc Godard,BirthPlace,False,True,False,True
+lgp-test-4x4-30|persons_conflict,4,Jean-Luc Godard,EducatedAt,False,True,False,False
+lgp-test-4x4-30|persons_conflict,4,Jean-Luc Godard,Height,False,True,True,False
+lgp-test-4x4-32|persons_conflict,4,Camilla Pytlick,Height,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Kristers Aparjods,EducatedAt,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Lindsey Maguire,Height,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-4x4-32|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Massinissa of the Rif,EducatedAt,True,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Massinissa of the Rif,Height,True,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Massinissa of the Rif,Mother,True,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Eilish McColgan,EducatedAt,False,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Eilish McColgan,Height,False,True,True,False
+lgp-test-4x4-33|persons_conflict,4,Eilish McColgan,Mother,False,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Dougie Hamilton,EducatedAt,False,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Dougie Hamilton,Height,True,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Dougie Hamilton,Mother,False,True,True,False
+lgp-test-4x4-33|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x4-33|persons_conflict,4,Lindsey Maguire,Height,False,True,True,False
+lgp-test-4x4-33|persons_conflict,4,Lindsey Maguire,Mother,False,True,False,False
+lgp-test-4x4-35|persons_conflict,4,Cosmo Duff-Gordon,BirthPlace,False,True,False,False
+lgp-test-4x4-35|persons_conflict,4,Cosmo Duff-Gordon,Occupation,False,True,False,False
+lgp-test-4x4-35|persons_conflict,4,Cosmo Duff-Gordon,Mother,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Naoya Tsukahara,Mother,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Cosmo Duff-Gordon,Mother,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Cosmo Duff-Gordon,EducatedAt,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Andy Murray,Mother,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Andy Murray,Occupation,True,True,False,True
+lgp-test-4x4-36|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x4-36|persons_conflict,4,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Camilla Pytlick,Height,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Kristers Aparjods,EducatedAt,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Alana Barber,Mother,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Alana Barber,Height,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Matt Kalil,Mother,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Matt Kalil,EducatedAt,True,True,False,False
+lgp-test-4x4-37|persons_conflict,4,Matt Kalil,Height,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Ilia Malinin,BirthPlace,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Ilia Malinin,EducatedAt,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Ilia Malinin,Mother,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Alana Barber,BirthPlace,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Alana Barber,Mother,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Willy Raine,BirthPlace,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Willy Raine,EducatedAt,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Willy Raine,Mother,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x4-38|persons_conflict,4,Kyōmi Shimizu,Mother,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-4x4-4|persons_conflict,4,José Luis Rodríguez Zapatero,Height,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Jean-Luc Godard,Occupation,True,True,False,True
+lgp-test-4x4-4|persons_conflict,4,Jean-Luc Godard,Height,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-4x4-4|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x4-6|persons_conflict,4,Erika Piancastelli,Height,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Erika Piancastelli,EducatedAt,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Marion Cotillard,Height,True,True,False,True
+lgp-test-4x4-6|persons_conflict,4,Marion Cotillard,EducatedAt,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-4x4-6|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Giovanni Reyna,Height,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Giovanni Reyna,EducatedAt,True,True,False,False
+lgp-test-4x4-6|persons_conflict,4,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-4x4-8|persons_conflict,4,Marion Cotillard,Mother,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-4x4-8|persons_conflict,4,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-4x4-8|persons_conflict,4,Kelly McCormick,Mother,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Kristers Aparjods,BirthPlace,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Michael Pinske,Mother,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Michael Pinske,BirthPlace,True,True,False,False
+lgp-test-4x4-8|persons_conflict,4,Michael Pinske,Occupation,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Ilia Malinin,Occupation,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Ilia Malinin,BirthPlace,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Ilia Malinin,EducatedAt,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Andy Murray,Occupation,True,True,False,True
+lgp-test-4x4-39|persons_conflict,4,Andy Murray,BirthPlace,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x4-39|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Irene Urdangarin y de Borbón,Height,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Victoria,Occupation,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Victoria,Height,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Victoria,EducatedAt,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Kelly McCormick,Height,True,True,False,False
+lgp-test-4x4-5|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Andy Murray,Occupation,True,True,False,True
+lgp-test-4x5-0|persons_conflict,4,Andy Murray,Mother,True,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Andy Murray,EducatedAt,False,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Andy Murray,Height,False,True,False,True
+lgp-test-4x5-0|persons_conflict,4,Alana Barber,Occupation,True,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Alana Barber,Mother,True,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Alana Barber,EducatedAt,False,True,True,False
+lgp-test-4x5-0|persons_conflict,4,Alana Barber,Height,False,True,True,False
+lgp-test-4x5-0|persons_conflict,4,Gayatri Gopichand,Occupation,False,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Gayatri Gopichand,Mother,False,True,True,False
+lgp-test-4x5-0|persons_conflict,4,Gayatri Gopichand,EducatedAt,False,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Gayatri Gopichand,Height,False,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Julia Murray,Occupation,False,True,True,False
+lgp-test-4x5-0|persons_conflict,4,Julia Murray,Mother,False,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Julia Murray,EducatedAt,False,True,False,False
+lgp-test-4x5-0|persons_conflict,4,Julia Murray,Height,False,True,True,False
+lgp-test-4x4-7|persons_conflict,4,Dirk Nowitzki,Occupation,True,True,False,True
+lgp-test-4x4-7|persons_conflict,4,Dirk Nowitzki,BirthPlace,True,True,False,False
+lgp-test-4x4-7|persons_conflict,4,Dirk Nowitzki,Height,True,True,False,False
+lgp-test-4x4-7|persons_conflict,4,"Nancy Swider-Peltz, Jr",Occupation,False,True,False,False
+lgp-test-4x4-7|persons_conflict,4,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-4x4-7|persons_conflict,4,"Nancy Swider-Peltz, Jr",Height,True,True,False,False
+lgp-test-4x4-7|persons_conflict,4,Nico Rosberg,Occupation,False,True,False,False
+lgp-test-4x4-7|persons_conflict,4,Nico Rosberg,BirthPlace,False,True,False,False
+lgp-test-4x4-7|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x4-7|persons_conflict,4,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-4x4-7|persons_conflict,4,Kristers Aparjods,BirthPlace,False,True,True,False
+lgp-test-4x4-7|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x4-9|persons_conflict,4,Julia Murray,Mother,False,True,True,False
+lgp-test-4x4-9|persons_conflict,4,Julia Murray,EducatedAt,False,True,True,False
+lgp-test-4x4-9|persons_conflict,4,Julia Murray,Height,False,True,False,False
+lgp-test-4x4-9|persons_conflict,4,Willy Raine,Mother,False,True,True,False
+lgp-test-4x4-9|persons_conflict,4,Willy Raine,EducatedAt,False,True,True,False
+lgp-test-4x4-9|persons_conflict,4,Willy Raine,Height,False,True,False,False
+lgp-test-4x4-9|persons_conflict,4,Kajol,Mother,True,True,False,False
+lgp-test-4x4-9|persons_conflict,4,Kajol,EducatedAt,False,True,True,False
+lgp-test-4x4-9|persons_conflict,4,Kajol,Height,False,True,False,True
+lgp-test-4x4-9|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x4-9|persons_conflict,4,Kristers Aparjods,EducatedAt,False,True,True,False
+lgp-test-4x4-9|persons_conflict,4,Kristers Aparjods,Height,False,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Erika Piancastelli,BirthPlace,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Erika Piancastelli,Height,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Erika Piancastelli,Mother,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Kristers Aparjods,BirthPlace,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lyhanna Rameau Bernard,Height,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lindsey Maguire,Height,True,True,False,False
+lgp-test-4x5-11|persons_conflict,4,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Victoria,Occupation,True,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Victoria,EducatedAt,False,True,True,False
+lgp-test-4x5-1|persons_conflict,4,Victoria,Height,False,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Victoria,BirthPlace,False,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Gayatri Gopichand,Occupation,False,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Gayatri Gopichand,EducatedAt,False,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Gayatri Gopichand,Height,False,True,True,False
+lgp-test-4x5-1|persons_conflict,4,Gayatri Gopichand,BirthPlace,False,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Leni Klum,Occupation,False,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Leni Klum,EducatedAt,False,True,True,False
+lgp-test-4x5-1|persons_conflict,4,Leni Klum,Height,False,True,True,False
+lgp-test-4x5-1|persons_conflict,4,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Kyōmi Shimizu,EducatedAt,False,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-4x5-1|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Konstantin Rokossovsky,Occupation,False,True,False,True
+lgp-test-4x5-12|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Konstantin Rokossovsky,Height,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Konstantin Rokossovsky,Mother,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Alana Barber,Occupation,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Alana Barber,BirthPlace,True,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Alana Barber,Height,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Alana Barber,Mother,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Yevgeny Grishin,Occupation,False,True,True,False
+lgp-test-4x5-12|persons_conflict,4,Yevgeny Grishin,BirthPlace,True,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Yevgeny Grishin,Height,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Yevgeny Grishin,Mother,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Dougie Hamilton,Occupation,False,True,True,False
+lgp-test-4x5-12|persons_conflict,4,Dougie Hamilton,BirthPlace,False,True,True,False
+lgp-test-4x5-12|persons_conflict,4,Dougie Hamilton,Height,False,True,False,False
+lgp-test-4x5-12|persons_conflict,4,Dougie Hamilton,Mother,False,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Kajol,Mother,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Kajol,Occupation,True,True,False,True
+lgp-test-4x5-15|persons_conflict,4,Kajol,BirthPlace,True,True,False,True
+lgp-test-4x5-15|persons_conflict,4,Kajol,EducatedAt,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Maria Magatti,Mother,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Maria Magatti,BirthPlace,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Camilla Pytlick,BirthPlace,True,True,False,False
+lgp-test-4x5-15|persons_conflict,4,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Nico Rosberg,Occupation,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Nico Rosberg,Mother,False,True,True,False
+lgp-test-4x5-14|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Nico Rosberg,BirthPlace,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Irene Urdangarin y de Borbón,Mother,True,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Irene Urdangarin y de Borbón,BirthPlace,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Leni Klum,Occupation,True,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Leni Klum,Mother,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Leni Klum,EducatedAt,True,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Leni Klum,BirthPlace,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Gayatri Gopichand,Occupation,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Gayatri Gopichand,Mother,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Gayatri Gopichand,EducatedAt,False,True,False,False
+lgp-test-4x5-14|persons_conflict,4,Gayatri Gopichand,BirthPlace,False,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Nico Rosberg,Mother,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Kristers Aparjods,BirthPlace,False,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Kristers Aparjods,EducatedAt,False,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Giovanni Reyna,BirthPlace,False,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Giovanni Reyna,EducatedAt,False,True,True,False
+lgp-test-4x5-16|persons_conflict,4,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-4x5-16|persons_conflict,4,Erika Piancastelli,Mother,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Erika Piancastelli,BirthPlace,True,True,False,False
+lgp-test-4x5-16|persons_conflict,4,Erika Piancastelli,EducatedAt,False,True,True,False
+lgp-test-4x5-16|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Andy Murray,BirthPlace,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Andy Murray,Height,True,True,False,True
+lgp-test-4x5-18|persons_conflict,4,Andy Murray,Mother,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Giovanni Reyna,EducatedAt,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Giovanni Reyna,BirthPlace,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Giovanni Reyna,Height,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Jean-Luc Godard,BirthPlace,True,True,False,True
+lgp-test-4x5-18|persons_conflict,4,Jean-Luc Godard,Height,True,True,False,False
+lgp-test-4x5-18|persons_conflict,4,Jean-Luc Godard,Mother,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Paige,Mother,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Paige,Height,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Alana Barber,Mother,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Alana Barber,Height,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Alana Barber,BirthPlace,False,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Erika Piancastelli,EducatedAt,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Erika Piancastelli,Mother,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Erika Piancastelli,Height,True,True,False,False
+lgp-test-4x5-2|persons_conflict,4,Erika Piancastelli,BirthPlace,False,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Matt Kalil,BirthPlace,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Matt Kalil,Height,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Matt Kalil,Mother,False,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Matt Kalil,EducatedAt,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Kyōmi Shimizu,BirthPlace,False,True,True,False
+lgp-test-4x5-10|persons_conflict,4,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Kyōmi Shimizu,Mother,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Kelly McCormick,BirthPlace,False,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Kelly McCormick,Height,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Kelly McCormick,Mother,False,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Naoya Tsukahara,BirthPlace,False,True,True,False
+lgp-test-4x5-10|persons_conflict,4,Naoya Tsukahara,Height,True,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Naoya Tsukahara,Mother,False,True,False,False
+lgp-test-4x5-10|persons_conflict,4,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Andy Murray,Mother,True,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Andy Murray,Height,True,True,False,True
+lgp-test-4x5-20|persons_conflict,4,Andy Murray,BirthPlace,False,True,True,False
+lgp-test-4x5-20|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Irene Urdangarin y de Borbón,Mother,False,True,True,False
+lgp-test-4x5-20|persons_conflict,4,Irene Urdangarin y de Borbón,Height,False,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Irene Urdangarin y de Borbón,BirthPlace,False,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,True,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Jean-Luc Godard,Mother,False,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Jean-Luc Godard,Height,False,True,True,False
+lgp-test-4x5-20|persons_conflict,4,Jean-Luc Godard,BirthPlace,True,True,False,True
+lgp-test-4x5-20|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Kristers Aparjods,Mother,False,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Kristers Aparjods,BirthPlace,True,True,False,False
+lgp-test-4x5-20|persons_conflict,4,Kristers Aparjods,EducatedAt,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Lyhanna Rameau Bernard,Height,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Erika Piancastelli,BirthPlace,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Erika Piancastelli,Height,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Erika Piancastelli,Mother,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Michael Pinske,BirthPlace,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Michael Pinske,Occupation,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Michael Pinske,Height,True,True,False,False
+lgp-test-4x5-21|persons_conflict,4,Michael Pinske,Mother,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x5-25|persons_conflict,4,Nico Rosberg,Mother,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Cosmo Duff-Gordon,EducatedAt,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Cosmo Duff-Gordon,Mother,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Lyhanna Rameau Bernard,EducatedAt,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Lyhanna Rameau Bernard,Height,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Kelly McCormick,Height,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Kelly McCormick,Mother,True,True,False,False
+lgp-test-4x5-25|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Paige,Mother,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Paige,Height,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Giovanni Reyna,EducatedAt,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Giovanni Reyna,Height,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-4x5-23|persons_conflict,4,Massinissa of the Rif,EducatedAt,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Massinissa of the Rif,Mother,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Massinissa of the Rif,Height,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Massinissa of the Rif,Occupation,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Erika Piancastelli,EducatedAt,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Erika Piancastelli,Mother,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Erika Piancastelli,Height,True,True,False,False
+lgp-test-4x5-23|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Leni Klum,EducatedAt,False,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Leni Klum,Height,False,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Leni Klum,Occupation,True,True,False,False
+lgp-test-4x5-22|persons_conflict,4,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-4x5-22|persons_conflict,4,José Luis Rodríguez Zapatero,Height,True,True,False,False
+lgp-test-4x5-22|persons_conflict,4,José Luis Rodríguez Zapatero,BirthPlace,False,True,True,False
+lgp-test-4x5-22|persons_conflict,4,José Luis Rodríguez Zapatero,Occupation,False,True,False,True
+lgp-test-4x5-22|persons_conflict,4,Erika Piancastelli,EducatedAt,True,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Erika Piancastelli,Height,False,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Erika Piancastelli,BirthPlace,False,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Erika Piancastelli,Occupation,False,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Julia Murray,EducatedAt,False,True,True,False
+lgp-test-4x5-22|persons_conflict,4,Julia Murray,Height,False,True,False,False
+lgp-test-4x5-22|persons_conflict,4,Julia Murray,BirthPlace,False,True,True,False
+lgp-test-4x5-22|persons_conflict,4,Julia Murray,Occupation,False,True,True,False
+lgp-test-4x5-27|persons_conflict,4,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Dougie Hamilton,Height,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Dougie Hamilton,Mother,False,True,True,False
+lgp-test-4x5-27|persons_conflict,4,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Andy Murray,Occupation,True,True,False,True
+lgp-test-4x5-27|persons_conflict,4,Andy Murray,Height,True,True,False,True
+lgp-test-4x5-27|persons_conflict,4,Andy Murray,Mother,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Lindsey Maguire,Height,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Paige,Height,True,True,False,False
+lgp-test-4x5-27|persons_conflict,4,Paige,Mother,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x5-24|persons_conflict,4,Nico Rosberg,Mother,False,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Irene Urdangarin y de Borbón,Height,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Irene Urdangarin y de Borbón,Mother,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Kristers Aparjods,EducatedAt,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Paige,Height,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Paige,Mother,False,True,True,False
+lgp-test-4x5-24|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-24|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Willy Raine,Mother,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Willy Raine,Height,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Willy Raine,EducatedAt,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Willy Raine,Occupation,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Dirk Nowitzki,Mother,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Dirk Nowitzki,Height,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Dirk Nowitzki,EducatedAt,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Dirk Nowitzki,Occupation,True,True,False,True
+lgp-test-4x5-17|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Camilla Pytlick,Height,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Lindsey Maguire,Height,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x5-17|persons_conflict,4,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Willy Raine,EducatedAt,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Willy Raine,Occupation,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Willy Raine,Height,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Willy Raine,BirthPlace,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Cosmo Duff-Gordon,EducatedAt,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Cosmo Duff-Gordon,BirthPlace,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Kyōmi Shimizu,BirthPlace,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-4x5-29|persons_conflict,4,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Lindsey Maguire,Height,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Leni Klum,EducatedAt,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Leni Klum,Height,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Leni Klum,Mother,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Paige,Height,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Paige,Mother,True,True,False,False
+lgp-test-4x5-3|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Naoya Tsukahara,Mother,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Naoya Tsukahara,BirthPlace,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Willy Raine,Mother,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Willy Raine,EducatedAt,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Willy Raine,Occupation,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Willy Raine,BirthPlace,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Paige,Mother,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Dougie Hamilton,Mother,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-4x5-19|persons_conflict,4,Dougie Hamilton,BirthPlace,True,True,False,False
+lgp-test-4x5-28|persons_conflict,4,Kajol,Occupation,True,True,False,True
+lgp-test-4x5-28|persons_conflict,4,Kajol,Mother,False,True,False,False
+lgp-test-4x5-28|persons_conflict,4,Kajol,BirthPlace,False,True,True,True
+lgp-test-4x5-28|persons_conflict,4,Kajol,EducatedAt,False,True,True,False
+lgp-test-4x5-28|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-28|persons_conflict,4,Maria Magatti,Mother,False,True,False,False
+lgp-test-4x5-28|persons_conflict,4,Maria Magatti,BirthPlace,False,True,False,False
+lgp-test-4x5-28|persons_conflict,4,Maria Magatti,EducatedAt,False,True,False,False
+lgp-test-4x5-28|persons_conflict,4,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-4x5-28|persons_conflict,4,José Luis Rodríguez Zapatero,Mother,False,True,True,False
+lgp-test-4x5-28|persons_conflict,4,José Luis Rodríguez Zapatero,BirthPlace,False,True,False,False
+lgp-test-4x5-28|persons_conflict,4,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-4x5-28|persons_conflict,4,Jean-Luc Godard,Occupation,True,True,False,True
+lgp-test-4x5-28|persons_conflict,4,Jean-Luc Godard,Mother,False,True,False,False
+lgp-test-4x5-28|persons_conflict,4,Jean-Luc Godard,BirthPlace,False,True,True,True
+lgp-test-4x5-28|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Leni Klum,Height,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Leni Klum,Mother,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Leni Klum,Occupation,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Michael Pinske,BirthPlace,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Michael Pinske,Height,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Michael Pinske,Mother,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Michael Pinske,Occupation,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-4x5-31|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x5-26|persons_conflict,4,Marion Cotillard,Mother,False,True,True,False
+lgp-test-4x5-26|persons_conflict,4,Marion Cotillard,Height,True,True,False,True
+lgp-test-4x5-26|persons_conflict,4,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-4x5-26|persons_conflict,4,Marion Cotillard,EducatedAt,True,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Maria Magatti,Mother,False,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Maria Magatti,Height,False,True,True,False
+lgp-test-4x5-26|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Konstantin Rokossovsky,Mother,False,True,True,False
+lgp-test-4x5-26|persons_conflict,4,Konstantin Rokossovsky,Height,False,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x5-26|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Lindsey Maguire,Height,False,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-4x5-26|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Julia Murray,EducatedAt,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Julia Murray,Mother,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Julia Murray,BirthPlace,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Julia Murray,Occupation,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Naoya Tsukahara,Mother,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Naoya Tsukahara,BirthPlace,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Irene Urdangarin y de Borbón,EducatedAt,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Irene Urdangarin y de Borbón,Mother,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Irene Urdangarin y de Borbón,BirthPlace,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Ilia Malinin,EducatedAt,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Ilia Malinin,Mother,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Ilia Malinin,BirthPlace,True,True,False,False
+lgp-test-4x5-30|persons_conflict,4,Ilia Malinin,Occupation,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Kelly McCormick,Mother,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Kelly McCormick,Height,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-4x5-33|persons_conflict,4,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Giovanni Reyna,BirthPlace,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Giovanni Reyna,Height,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-4x5-33|persons_conflict,4,Marion Cotillard,Mother,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-4x5-33|persons_conflict,4,Marion Cotillard,Height,True,True,False,True
+lgp-test-4x5-33|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Nico Rosberg,Mother,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-4x5-33|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x5-13|persons_conflict,4,Marion Cotillard,Occupation,False,True,True,True
+lgp-test-4x5-13|persons_conflict,4,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-4x5-13|persons_conflict,4,Marion Cotillard,Mother,False,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Marion Cotillard,EducatedAt,False,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Lyhanna Rameau Bernard,Occupation,False,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Lyhanna Rameau Bernard,BirthPlace,False,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Lyhanna Rameau Bernard,EducatedAt,False,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Erika Piancastelli,BirthPlace,True,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Erika Piancastelli,Mother,False,True,True,False
+lgp-test-4x5-13|persons_conflict,4,Erika Piancastelli,EducatedAt,True,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Konstantin Rokossovsky,Occupation,False,True,True,True
+lgp-test-4x5-13|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,False,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Konstantin Rokossovsky,Mother,False,True,False,False
+lgp-test-4x5-13|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,False,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Kajol,BirthPlace,True,True,False,True
+lgp-test-4x5-34|persons_conflict,4,Kajol,Occupation,True,True,False,True
+lgp-test-4x5-34|persons_conflict,4,Kajol,Height,True,True,False,True
+lgp-test-4x5-34|persons_conflict,4,Kajol,EducatedAt,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,"Nancy Swider-Peltz, Jr",Occupation,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,"Nancy Swider-Peltz, Jr",Height,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,"Nancy Swider-Peltz, Jr",EducatedAt,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Willy Raine,BirthPlace,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Willy Raine,Occupation,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Willy Raine,Height,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Willy Raine,EducatedAt,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Leni Klum,Occupation,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Leni Klum,Height,True,True,False,False
+lgp-test-4x5-34|persons_conflict,4,Leni Klum,EducatedAt,True,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Kajol,Occupation,True,True,False,True
+lgp-test-4x5-35|persons_conflict,4,Kajol,BirthPlace,True,True,False,True
+lgp-test-4x5-35|persons_conflict,4,Kajol,EducatedAt,True,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Kajol,Mother,True,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Lindsey Maguire,Occupation,False,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Lindsey Maguire,Mother,False,True,True,False
+lgp-test-4x5-35|persons_conflict,4,Konstantin Rokossovsky,Occupation,False,True,False,True
+lgp-test-4x5-35|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,False,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,False,True,True,False
+lgp-test-4x5-35|persons_conflict,4,Konstantin Rokossovsky,Mother,False,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Julia Murray,Occupation,False,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Julia Murray,BirthPlace,False,True,True,False
+lgp-test-4x5-35|persons_conflict,4,Julia Murray,EducatedAt,False,True,False,False
+lgp-test-4x5-35|persons_conflict,4,Julia Murray,Mother,False,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Nico Rosberg,Mother,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x5-39|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Alana Barber,Mother,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Alana Barber,Height,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Alana Barber,Occupation,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Michael Pinske,Mother,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Michael Pinske,Height,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Michael Pinske,EducatedAt,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Michael Pinske,Occupation,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Camilla Pytlick,Height,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-4x5-39|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Kelly McCormick,Height,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Kelly McCormick,Mother,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Massinissa of the Rif,Height,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Massinissa of the Rif,Occupation,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Massinissa of the Rif,Mother,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Massinissa of the Rif,EducatedAt,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Maria Magatti,Mother,True,True,False,False
+lgp-test-4x5-38|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Lindsey Maguire,EducatedAt,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Lindsey Maguire,Height,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x5-36|persons_conflict,4,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Maria Magatti,Mother,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-36|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Maria Magatti,BirthPlace,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x5-4|persons_conflict,4,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-4x5-4|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Yevgeny Grishin,BirthPlace,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Yevgeny Grishin,Height,False,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Yevgeny Grishin,Occupation,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Yevgeny Grishin,Mother,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Eilish McColgan,BirthPlace,False,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Eilish McColgan,Height,False,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Eilish McColgan,Mother,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Camilla Pytlick,BirthPlace,False,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Camilla Pytlick,Height,False,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Leni Klum,Height,False,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Leni Klum,Occupation,True,True,False,False
+lgp-test-4x5-37|persons_conflict,4,Leni Klum,Mother,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Kelly McCormick,Height,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-4x5-6|persons_conflict,4,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Alana Barber,Occupation,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Alana Barber,Height,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Alana Barber,BirthPlace,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Paige,Height,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-6|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Maria Magatti,BirthPlace,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Maria Magatti,Mother,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kelly McCormick,Mother,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Nico Rosberg,Mother,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kristers Aparjods,EducatedAt,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kristers Aparjods,BirthPlace,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-4x5-5|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Naoya Tsukahara,Mother,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Naoya Tsukahara,Height,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Kristers Aparjods,Height,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Kristers Aparjods,EducatedAt,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Élodie Clouvel,Height,True,True,False,False
+lgp-test-4x5-8|persons_conflict,4,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Kelly McCormick,Height,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Dougie Hamilton,Height,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Dougie Hamilton,BirthPlace,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Maria Magatti,Height,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Maria Magatti,BirthPlace,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Maria Magatti,Occupation,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Nico Rosberg,Height,True,True,False,True
+lgp-test-4x5-32|persons_conflict,4,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-4x5-32|persons_conflict,4,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Lyhanna Rameau Bernard,Height,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Lyhanna Rameau Bernard,EducatedAt,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Maria Magatti,Height,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Maria Magatti,Occupation,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Giovanni Reyna,Height,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Giovanni Reyna,EducatedAt,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-5x4-0|persons_conflict,5,Ilia Malinin,Height,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Ilia Malinin,EducatedAt,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Ilia Malinin,Occupation,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Anti Saarepuu,Height,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Anti Saarepuu,EducatedAt,True,True,False,False
+lgp-test-5x4-0|persons_conflict,5,Anti Saarepuu,Occupation,True,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Kajol,BirthPlace,True,True,False,True
+lgp-test-4x5-7|persons_conflict,4,Kajol,Height,False,True,True,True
+lgp-test-4x5-7|persons_conflict,4,Kajol,Occupation,False,True,True,True
+lgp-test-4x5-7|persons_conflict,4,Kajol,EducatedAt,False,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Gayatri Gopichand,Height,False,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Gayatri Gopichand,Occupation,False,True,True,False
+lgp-test-4x5-7|persons_conflict,4,Gayatri Gopichand,EducatedAt,False,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Paige,Height,False,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Lindsey Maguire,Height,False,True,True,False
+lgp-test-4x5-7|persons_conflict,4,Lindsey Maguire,Occupation,False,True,False,False
+lgp-test-4x5-7|persons_conflict,4,Lindsey Maguire,EducatedAt,False,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-5x4-12|persons_conflict,5,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Marion Cotillard,EducatedAt,False,True,True,False
+lgp-test-5x4-12|persons_conflict,5,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-5x4-12|persons_conflict,5,Marion Cotillard,BirthPlace,False,True,False,True
+lgp-test-5x4-12|persons_conflict,5,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Kyōmi Shimizu,BirthPlace,False,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Naoya Tsukahara,EducatedAt,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Naoya Tsukahara,Occupation,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Naoya Tsukahara,BirthPlace,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Leni Klum,EducatedAt,False,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Leni Klum,Occupation,True,True,False,False
+lgp-test-5x4-12|persons_conflict,5,Leni Klum,BirthPlace,False,True,True,False
+lgp-test-5x4-1|persons_conflict,5,Willy Raine,Mother,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Willy Raine,Occupation,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Willy Raine,Height,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Cosmo Duff-Gordon,Mother,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Ilia Malinin,Mother,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Ilia Malinin,Occupation,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Ilia Malinin,Height,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,José Luis Rodríguez Zapatero,Mother,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-5x4-1|persons_conflict,5,José Luis Rodríguez Zapatero,Height,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Kelly McCormick,Mother,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-5x4-1|persons_conflict,5,Kelly McCormick,Height,True,True,False,False
+lgp-test-5x4-11|persons_conflict,5,José Luis Rodríguez Zapatero,EducatedAt,False,True,True,False
+lgp-test-5x4-11|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,False,True,True,True
+lgp-test-5x4-11|persons_conflict,5,José Luis Rodríguez Zapatero,Mother,False,True,True,False
+lgp-test-5x4-11|persons_conflict,5,Giovanni Reyna,EducatedAt,False,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Giovanni Reyna,Occupation,False,True,False,True
+lgp-test-5x4-11|persons_conflict,5,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Nico Rosberg,Mother,False,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Julia Murray,EducatedAt,True,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Julia Murray,Occupation,True,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Julia Murray,Mother,False,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Ilia Malinin,EducatedAt,True,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Ilia Malinin,Occupation,False,True,False,False
+lgp-test-5x4-11|persons_conflict,5,Ilia Malinin,Mother,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Ilia Malinin,Mother,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Ilia Malinin,Occupation,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Ilia Malinin,Height,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kirill Prigoda,Mother,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kirill Prigoda,Occupation,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kirill Prigoda,Height,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kelly McCormick,Mother,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kelly McCormick,Height,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kyōmi Shimizu,Mother,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kyōmi Shimizu,Occupation,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Kyōmi Shimizu,Height,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-5x4-15|persons_conflict,5,Lindsey Maguire,Height,True,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Alana Barber,BirthPlace,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Alana Barber,Height,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Alana Barber,Mother,False,True,True,False
+lgp-test-5x4-14|persons_conflict,5,Jean-Luc Godard,BirthPlace,False,True,True,True
+lgp-test-5x4-14|persons_conflict,5,Jean-Luc Godard,Height,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Jean-Luc Godard,Mother,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Cosmo Duff-Gordon,BirthPlace,True,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Cosmo Duff-Gordon,Mother,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Konstantin Rokossovsky,BirthPlace,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Konstantin Rokossovsky,Height,False,True,True,False
+lgp-test-5x4-14|persons_conflict,5,Konstantin Rokossovsky,Mother,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Julia Murray,BirthPlace,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Julia Murray,Height,False,True,False,False
+lgp-test-5x4-14|persons_conflict,5,Julia Murray,Mother,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Eilish McColgan,BirthPlace,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Eilish McColgan,Mother,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Maria Magatti,BirthPlace,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Maria Magatti,Mother,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Maria Magatti,Occupation,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Alana Barber,BirthPlace,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Alana Barber,Mother,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,Alana Barber,Occupation,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,José Luis Rodríguez Zapatero,BirthPlace,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,José Luis Rodríguez Zapatero,Mother,True,True,False,False
+lgp-test-5x4-16|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-4x5-9|persons_conflict,4,Jean-Luc Godard,EducatedAt,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Jean-Luc Godard,BirthPlace,True,True,False,True
+lgp-test-4x5-9|persons_conflict,4,Jean-Luc Godard,Occupation,True,True,False,True
+lgp-test-4x5-9|persons_conflict,4,Jean-Luc Godard,Height,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Paige,EducatedAt,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Paige,BirthPlace,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Paige,Occupation,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Paige,Height,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Lyhanna Rameau Bernard,EducatedAt,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,Lyhanna Rameau Bernard,Height,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,"Nancy Swider-Peltz, Jr",EducatedAt,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,"Nancy Swider-Peltz, Jr",Occupation,True,True,False,False
+lgp-test-4x5-9|persons_conflict,4,"Nancy Swider-Peltz, Jr",Height,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Giovanni Reyna,BirthPlace,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-5x4-18|persons_conflict,5,Marion Cotillard,Mother,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-5x4-18|persons_conflict,5,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-5x4-18|persons_conflict,5,Willy Raine,Mother,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Willy Raine,BirthPlace,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Willy Raine,Occupation,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Cosmo Duff-Gordon,Mother,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Cosmo Duff-Gordon,BirthPlace,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Ilia Malinin,Mother,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Ilia Malinin,BirthPlace,True,True,False,False
+lgp-test-5x4-18|persons_conflict,5,Ilia Malinin,Occupation,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Michael Pinske,BirthPlace,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Michael Pinske,Occupation,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Michael Pinske,Mother,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Paige,BirthPlace,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Paige,Occupation,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Paige,Mother,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-5x4-10|persons_conflict,5,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Kelly McCormick,Mother,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-5x4-10|persons_conflict,5,Nico Rosberg,Mother,True,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Cosmo Duff-Gordon,Occupation,False,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Cosmo Duff-Gordon,BirthPlace,True,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Giovanni Reyna,Occupation,False,True,True,True
+lgp-test-5x4-2|persons_conflict,5,Giovanni Reyna,BirthPlace,False,True,True,False
+lgp-test-5x4-2|persons_conflict,5,Giovanni Reyna,Height,False,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Anti Saarepuu,Occupation,False,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Anti Saarepuu,BirthPlace,False,True,True,False
+lgp-test-5x4-2|persons_conflict,5,Anti Saarepuu,Height,False,True,False,False
+lgp-test-5x4-2|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-5x4-2|persons_conflict,5,José Luis Rodríguez Zapatero,BirthPlace,True,True,False,False
+lgp-test-5x4-2|persons_conflict,5,José Luis Rodríguez Zapatero,Height,True,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Ilia Malinin,Occupation,False,True,True,False
+lgp-test-5x4-2|persons_conflict,5,Ilia Malinin,BirthPlace,False,True,False,False
+lgp-test-5x4-2|persons_conflict,5,Ilia Malinin,Height,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Camilla Pytlick,BirthPlace,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Lyhanna Rameau Bernard,BirthPlace,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Ilia Malinin,Mother,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Ilia Malinin,Occupation,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Ilia Malinin,BirthPlace,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-5x4-13|persons_conflict,5,Giovanni Reyna,BirthPlace,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-5x4-13|persons_conflict,5,Kristers Aparjods,BirthPlace,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Kirill Prigoda,Occupation,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Kirill Prigoda,Mother,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Kirill Prigoda,Height,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Camilla Pytlick,Height,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Yevgeny Grishin,Occupation,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Yevgeny Grishin,Mother,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Yevgeny Grishin,Height,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Andy Murray,Occupation,True,True,False,True
+lgp-test-5x4-22|persons_conflict,5,Andy Murray,Mother,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Andy Murray,Height,True,True,False,True
+lgp-test-5x4-22|persons_conflict,5,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Eilish McColgan,Mother,True,True,False,False
+lgp-test-5x4-22|persons_conflict,5,Eilish McColgan,Height,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Michael Pinske,EducatedAt,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Michael Pinske,Height,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Michael Pinske,Occupation,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,"Nancy Swider-Peltz, Jr",EducatedAt,False,True,False,False
+lgp-test-5x4-20|persons_conflict,5,"Nancy Swider-Peltz, Jr",Height,False,True,False,False
+lgp-test-5x4-20|persons_conflict,5,"Nancy Swider-Peltz, Jr",Occupation,False,True,True,False
+lgp-test-5x4-20|persons_conflict,5,Paige,EducatedAt,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Paige,Height,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Paige,Occupation,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Kelly McCormick,Height,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Lindsey Maguire,EducatedAt,False,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Lindsey Maguire,Height,False,True,False,False
+lgp-test-5x4-20|persons_conflict,5,Lindsey Maguire,Occupation,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Julia Murray,Mother,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Julia Murray,EducatedAt,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Julia Murray,Occupation,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Dougie Hamilton,Mother,True,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Dougie Hamilton,EducatedAt,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Kristers Aparjods,EducatedAt,True,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Élodie Clouvel,Mother,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Élodie Clouvel,EducatedAt,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Élodie Clouvel,Occupation,False,True,True,False
+lgp-test-5x4-21|persons_conflict,5,Irene Urdangarin y de Borbón,Mother,False,True,False,False
+lgp-test-5x4-21|persons_conflict,5,Irene Urdangarin y de Borbón,EducatedAt,False,True,True,False
+lgp-test-5x4-21|persons_conflict,5,Irene Urdangarin y de Borbón,Occupation,False,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Alana Barber,Height,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Alana Barber,Occupation,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Camilla Pytlick,Height,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Dirk Nowitzki,EducatedAt,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Dirk Nowitzki,Height,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Dirk Nowitzki,Occupation,True,True,False,True
+lgp-test-5x4-23|persons_conflict,5,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Kelly McCormick,Height,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Leni Klum,EducatedAt,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Leni Klum,Height,True,True,False,False
+lgp-test-5x4-23|persons_conflict,5,Leni Klum,Occupation,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Massinissa of the Rif,Height,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Massinissa of the Rif,EducatedAt,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Massinissa of the Rif,Mother,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Marion Cotillard,Height,True,True,False,True
+lgp-test-5x4-27|persons_conflict,5,Marion Cotillard,EducatedAt,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Marion Cotillard,Mother,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Camilla Pytlick,Height,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Élodie Clouvel,Height,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Dougie Hamilton,Height,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-5x4-27|persons_conflict,5,Dougie Hamilton,Mother,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Michael Pinske,Occupation,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Michael Pinske,Mother,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Michael Pinske,EducatedAt,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Nico Rosberg,Mother,False,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Paige,Occupation,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Paige,Mother,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Paige,EducatedAt,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Anti Saarepuu,Occupation,True,True,False,False
+lgp-test-5x4-25|persons_conflict,5,Anti Saarepuu,Mother,False,True,True,False
+lgp-test-5x4-25|persons_conflict,5,Anti Saarepuu,EducatedAt,True,True,False,False
+lgp-test-5x4-26|persons_conflict,5,José Luis Rodríguez Zapatero,BirthPlace,True,True,False,False
+lgp-test-5x4-26|persons_conflict,5,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-5x4-26|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-5x4-26|persons_conflict,5,Camilla Pytlick,BirthPlace,False,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Camilla Pytlick,EducatedAt,False,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Julia Murray,BirthPlace,False,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Julia Murray,EducatedAt,False,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Julia Murray,Occupation,True,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Lyhanna Rameau Bernard,BirthPlace,False,True,True,False
+lgp-test-5x4-26|persons_conflict,5,Lyhanna Rameau Bernard,EducatedAt,True,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Lyhanna Rameau Bernard,Occupation,True,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Victoria,BirthPlace,False,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Victoria,EducatedAt,False,True,False,False
+lgp-test-5x4-26|persons_conflict,5,Victoria,Occupation,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Lindsey Maguire,Height,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Lindsey Maguire,Mother,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Kelly McCormick,Height,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Kelly McCormick,Mother,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Michael Pinske,BirthPlace,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Michael Pinske,Height,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Michael Pinske,Mother,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Camilla Pytlick,BirthPlace,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Camilla Pytlick,Height,True,True,False,False
+lgp-test-5x4-30|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-5x4-24|persons_conflict,5,José Luis Rodríguez Zapatero,BirthPlace,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Élodie Clouvel,Occupation,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Irene Urdangarin y de Borbón,EducatedAt,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Irene Urdangarin y de Borbón,BirthPlace,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Leni Klum,EducatedAt,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Leni Klum,Occupation,True,True,False,False
+lgp-test-5x4-24|persons_conflict,5,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,Kelly McCormick,Mother,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,Kelly McCormick,Height,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,Marion Cotillard,Mother,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,Marion Cotillard,Occupation,False,True,False,True
+lgp-test-5x4-31|persons_conflict,5,Marion Cotillard,Height,False,True,False,True
+lgp-test-5x4-31|persons_conflict,5,Dirk Nowitzki,Mother,False,True,True,False
+lgp-test-5x4-31|persons_conflict,5,Dirk Nowitzki,Occupation,True,True,False,True
+lgp-test-5x4-31|persons_conflict,5,Dirk Nowitzki,Height,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,José Luis Rodríguez Zapatero,Mother,False,True,False,False
+lgp-test-5x4-31|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-5x4-31|persons_conflict,5,José Luis Rodríguez Zapatero,Height,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,Andy Murray,Mother,True,True,False,False
+lgp-test-5x4-31|persons_conflict,5,Andy Murray,Occupation,False,True,False,True
+lgp-test-5x4-31|persons_conflict,5,Andy Murray,Height,False,True,False,True
+lgp-test-5x4-33|persons_conflict,5,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Kristers Aparjods,BirthPlace,True,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Kristers Aparjods,Height,True,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Cosmo Duff-Gordon,BirthPlace,False,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Cosmo Duff-Gordon,Height,False,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Julia Murray,Occupation,False,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Julia Murray,BirthPlace,False,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Julia Murray,Height,False,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Anti Saarepuu,Occupation,True,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Anti Saarepuu,BirthPlace,True,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Anti Saarepuu,Height,True,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Lindsey Maguire,Occupation,False,True,True,False
+lgp-test-5x4-33|persons_conflict,5,Lindsey Maguire,BirthPlace,False,True,False,False
+lgp-test-5x4-33|persons_conflict,5,Lindsey Maguire,Height,False,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Kajol,Occupation,False,True,True,True
+lgp-test-5x4-35|persons_conflict,5,Kajol,EducatedAt,True,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Kajol,Height,True,True,False,True
+lgp-test-5x4-35|persons_conflict,5,Kyōmi Shimizu,Occupation,False,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Kyōmi Shimizu,EducatedAt,False,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Kyōmi Shimizu,Height,False,True,True,False
+lgp-test-5x4-35|persons_conflict,5,Massinissa of the Rif,Occupation,False,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Massinissa of the Rif,EducatedAt,True,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Massinissa of the Rif,Height,True,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Jean-Luc Godard,Occupation,False,True,False,True
+lgp-test-5x4-35|persons_conflict,5,Jean-Luc Godard,EducatedAt,False,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Jean-Luc Godard,Height,False,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Michael Pinske,Occupation,False,True,False,False
+lgp-test-5x4-35|persons_conflict,5,Michael Pinske,EducatedAt,False,True,True,False
+lgp-test-5x4-35|persons_conflict,5,Michael Pinske,Height,False,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Cosmo Duff-Gordon,Mother,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Erika Piancastelli,Mother,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Erika Piancastelli,Height,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Eilish McColgan,Mother,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Eilish McColgan,Height,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Kristers Aparjods,Height,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-5x4-3|persons_conflict,5,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Giovanni Reyna,Mother,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Giovanni Reyna,Height,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-5x4-37|persons_conflict,5,Kristers Aparjods,Mother,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Kristers Aparjods,Height,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Kristers Aparjods,Occupation,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Michael Pinske,Mother,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Michael Pinske,Height,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Michael Pinske,Occupation,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Leni Klum,Mother,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Leni Klum,Height,True,True,False,False
+lgp-test-5x4-37|persons_conflict,5,Leni Klum,Occupation,True,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Marion Cotillard,Height,False,True,True,True
+lgp-test-5x4-32|persons_conflict,5,Marion Cotillard,Occupation,False,True,True,True
+lgp-test-5x4-32|persons_conflict,5,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-5x4-32|persons_conflict,5,Yevgeny Grishin,Height,False,True,True,False
+lgp-test-5x4-32|persons_conflict,5,Yevgeny Grishin,Occupation,False,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Yevgeny Grishin,BirthPlace,False,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Gayatri Gopichand,Occupation,False,True,True,False
+lgp-test-5x4-32|persons_conflict,5,Gayatri Gopichand,BirthPlace,False,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Konstantin Rokossovsky,Height,False,True,True,False
+lgp-test-5x4-32|persons_conflict,5,Konstantin Rokossovsky,Occupation,False,True,True,True
+lgp-test-5x4-32|persons_conflict,5,Konstantin Rokossovsky,BirthPlace,False,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Willy Raine,Height,True,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Willy Raine,Occupation,True,True,False,False
+lgp-test-5x4-32|persons_conflict,5,Willy Raine,BirthPlace,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Marion Cotillard,EducatedAt,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Marion Cotillard,BirthPlace,True,True,False,True
+lgp-test-5x4-36|persons_conflict,5,Marion Cotillard,Occupation,True,True,False,True
+lgp-test-5x4-36|persons_conflict,5,Andy Murray,EducatedAt,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Andy Murray,BirthPlace,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Andy Murray,Occupation,True,True,False,True
+lgp-test-5x4-36|persons_conflict,5,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,José Luis Rodríguez Zapatero,BirthPlace,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,José Luis Rodríguez Zapatero,Occupation,True,True,False,True
+lgp-test-5x4-36|persons_conflict,5,Kelly McCormick,EducatedAt,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Kelly McCormick,BirthPlace,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Kelly McCormick,Occupation,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-5x4-36|persons_conflict,5,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Anti Saarepuu,Height,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Anti Saarepuu,Occupation,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Anti Saarepuu,Mother,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Irene Urdangarin y de Borbón,Height,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Irene Urdangarin y de Borbón,Occupation,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Irene Urdangarin y de Borbón,Mother,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Eilish McColgan,Height,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Eilish McColgan,Occupation,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Eilish McColgan,Mother,True,True,False,False
+lgp-test-5x4-39|persons_conflict,5,Kajol,Height,True,True,False,True
+lgp-test-5x4-39|persons_conflict,5,Kajol,Occupation,True,True,False,True
+lgp-test-5x4-39|persons_conflict,5,Kajol,Mother,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Maria Magatti,BirthPlace,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Maria Magatti,Mother,False,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Maria Magatti,Occupation,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Ilia Malinin,BirthPlace,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Ilia Malinin,Mother,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Ilia Malinin,Occupation,False,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Gayatri Gopichand,BirthPlace,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Gayatri Gopichand,Mother,False,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Gayatri Gopichand,Occupation,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Nico Rosberg,Mother,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Nico Rosberg,Occupation,False,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Leni Klum,Mother,False,True,False,False
+lgp-test-5x4-5|persons_conflict,5,Leni Klum,Occupation,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Camilla Pytlick,BirthPlace,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Cosmo Duff-Gordon,Occupation,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Cosmo Duff-Gordon,BirthPlace,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Cosmo Duff-Gordon,EducatedAt,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-5x4-8|persons_conflict,5,Giovanni Reyna,BirthPlace,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Giovanni Reyna,EducatedAt,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,"Nancy Swider-Peltz, Jr",Occupation,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,"Nancy Swider-Peltz, Jr",EducatedAt,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Dougie Hamilton,BirthPlace,True,True,False,False
+lgp-test-5x4-8|persons_conflict,5,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Lyhanna Rameau Bernard,Mother,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Lyhanna Rameau Bernard,Height,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Lyhanna Rameau Bernard,EducatedAt,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Gayatri Gopichand,Mother,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Gayatri Gopichand,Height,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Gayatri Gopichand,EducatedAt,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Julia Murray,Mother,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Julia Murray,Height,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Julia Murray,EducatedAt,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Konstantin Rokossovsky,Height,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Konstantin Rokossovsky,EducatedAt,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Maria Magatti,Mother,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Maria Magatti,Height,True,True,False,False
+lgp-test-5x4-6|persons_conflict,5,Maria Magatti,EducatedAt,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Nico Rosberg,Mother,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Nico Rosberg,Occupation,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Nico Rosberg,BirthPlace,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Konstantin Rokossovsky,Mother,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Konstantin Rokossovsky,Occupation,True,True,False,True
+lgp-test-5x4-9|persons_conflict,5,Konstantin Rokossovsky,BirthPlace,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Camilla Pytlick,Occupation,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Camilla Pytlick,BirthPlace,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Leni Klum,Mother,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Leni Klum,Occupation,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Leni Klum,BirthPlace,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Erika Piancastelli,Mother,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Erika Piancastelli,Occupation,True,True,False,False
+lgp-test-5x4-9|persons_conflict,5,Erika Piancastelli,BirthPlace,True,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Élodie Clouvel,Mother,False,True,True,False
+lgp-test-5x4-34|persons_conflict,5,Élodie Clouvel,EducatedAt,False,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Élodie Clouvel,BirthPlace,True,True,False,False
+lgp-test-5x4-34|persons_conflict,5,José Luis Rodríguez Zapatero,Mother,False,True,False,False
+lgp-test-5x4-34|persons_conflict,5,José Luis Rodríguez Zapatero,EducatedAt,True,True,False,False
+lgp-test-5x4-34|persons_conflict,5,José Luis Rodríguez Zapatero,BirthPlace,True,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Nico Rosberg,Mother,False,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Nico Rosberg,EducatedAt,False,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Nico Rosberg,BirthPlace,False,True,True,False
+lgp-test-5x4-34|persons_conflict,5,Alana Barber,Mother,False,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Alana Barber,EducatedAt,False,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Alana Barber,BirthPlace,False,True,True,False
+lgp-test-5x4-34|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-5x4-34|persons_conflict,5,Camilla Pytlick,BirthPlace,True,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Cosmo Duff-Gordon,EducatedAt,True,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Cosmo Duff-Gordon,BirthPlace,False,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Cosmo Duff-Gordon,Height,False,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Alana Barber,EducatedAt,True,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Alana Barber,BirthPlace,False,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Alana Barber,Height,False,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Nico Rosberg,EducatedAt,True,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Nico Rosberg,BirthPlace,False,True,True,False
+lgp-test-5x4-38|persons_conflict,5,Nico Rosberg,Height,True,True,False,True
+lgp-test-5x4-38|persons_conflict,5,Kyōmi Shimizu,EducatedAt,True,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Kyōmi Shimizu,BirthPlace,False,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Kyōmi Shimizu,Height,False,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Camilla Pytlick,BirthPlace,False,True,False,False
+lgp-test-5x4-38|persons_conflict,5,Camilla Pytlick,Height,False,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Élodie Clouvel,Height,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Élodie Clouvel,Mother,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Élodie Clouvel,EducatedAt,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Dirk Nowitzki,Height,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Dirk Nowitzki,Mother,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Dirk Nowitzki,EducatedAt,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Camilla Pytlick,Height,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Camilla Pytlick,Mother,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Camilla Pytlick,EducatedAt,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Alana Barber,Height,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Alana Barber,Mother,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Alana Barber,EducatedAt,False,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Dougie Hamilton,Height,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Dougie Hamilton,Mother,True,True,False,False
+lgp-test-5x4-7|persons_conflict,5,Dougie Hamilton,EducatedAt,False,True,True,False
+lgp-test-5x4-4|persons_conflict,5,Dougie Hamilton,EducatedAt,True,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Dougie Hamilton,Height,True,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Dougie Hamilton,Occupation,True,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Michael Pinske,EducatedAt,False,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Michael Pinske,Height,False,True,True,False
+lgp-test-5x4-4|persons_conflict,5,Michael Pinske,Occupation,True,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Giovanni Reyna,EducatedAt,True,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Giovanni Reyna,Height,True,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Giovanni Reyna,Occupation,True,True,False,True
+lgp-test-5x4-4|persons_conflict,5,Ilia Malinin,EducatedAt,False,True,True,False
+lgp-test-5x4-4|persons_conflict,5,Ilia Malinin,Height,False,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Ilia Malinin,Occupation,False,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Victoria,EducatedAt,False,True,True,False
+lgp-test-5x4-4|persons_conflict,5,Victoria,Height,False,True,False,False
+lgp-test-5x4-4|persons_conflict,5,Victoria,Occupation,False,True,True,False
+lgp-test-5x4-17|persons_conflict,5,Maria Magatti,BirthPlace,False,True,True,False
+lgp-test-5x4-17|persons_conflict,5,Maria Magatti,EducatedAt,False,True,True,False
+lgp-test-5x4-17|persons_conflict,5,Maria Magatti,Occupation,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,Willy Raine,BirthPlace,True,True,False,False
+lgp-test-5x4-17|persons_conflict,5,Willy Raine,EducatedAt,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,Willy Raine,Occupation,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,Lyhanna Rameau Bernard,BirthPlace,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,Lyhanna Rameau Bernard,EducatedAt,False,True,True,False
+lgp-test-5x4-17|persons_conflict,5,Lyhanna Rameau Bernard,Occupation,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,Victoria,BirthPlace,False,True,True,False
+lgp-test-5x4-17|persons_conflict,5,Victoria,EducatedAt,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,Victoria,Occupation,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,"Nancy Swider-Peltz, Jr",BirthPlace,True,True,False,False
+lgp-test-5x4-17|persons_conflict,5,"Nancy Swider-Peltz, Jr",EducatedAt,False,True,False,False
+lgp-test-5x4-17|persons_conflict,5,"Nancy Swider-Peltz, Jr",Occupation,True,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Konstantin Rokossovsky,Height,False,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Konstantin Rokossovsky,Occupation,False,True,False,True
+lgp-test-5x4-19|persons_conflict,5,Konstantin Rokossovsky,BirthPlace,False,True,True,False
+lgp-test-5x4-19|persons_conflict,5,Cosmo Duff-Gordon,Height,True,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Cosmo Duff-Gordon,Occupation,False,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Cosmo Duff-Gordon,BirthPlace,False,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Lindsey Maguire,Height,False,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Lindsey Maguire,Occupation,True,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Lindsey Maguire,BirthPlace,True,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Naoya Tsukahara,Height,False,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Naoya Tsukahara,Occupation,False,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Naoya Tsukahara,BirthPlace,True,True,False,False
+lgp-test-5x4-19|persons_conflict,5,Marion Cotillard,Height,False,True,False,True
+lgp-test-5x4-19|persons_conflict,5,Marion Cotillard,Occupation,False,True,False,True
+lgp-test-5x4-19|persons_conflict,5,Marion Cotillard,BirthPlace,False,True,False,True

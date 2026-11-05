@@ -1,0 +1,4 @@
+pool,people,unique_subset,median_sitelinks,mean_k_e4b,place of birth_e4b,occupation_e4b,mother_e4b,educated at_e4b,height (cm)_e4b,mean_k_31b,place of birth_31b,occupation_31b,mother_31b,educated at_31b,height (cm)_31b
+only_31b,70,25,18.5,0.0,0.0,0.0,0.0,0.0,0.0,2.49,0.814,0.829,0.1,0.286,0.457
+both,195,37,96.0,2.54,0.882,0.985,0.103,0.174,0.395,3.04,0.913,0.99,0.272,0.277,0.585
+none,222,46,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,7 @@
+model,fact,accuracy,non_letter,n
+gemma-4-31B-it,birth_year,0.644,0.032,4515
+gemma-4-31B-it,birthplace,0.476,0.006,4515
+gemma-4-31B-it,occupation,0.758,0.009,4515
+gemma-4-E4B-it,birth_year,0.487,0.101,4515
+gemma-4-E4B-it,birthplace,0.329,0.011,4515
+gemma-4-E4B-it,occupation,0.683,0.027,4515

@@ -1,0 +1,11 @@
+model,subset,n,aligned,conflict,a_only,c_only,p,median_diff
+gemma-4-31B-it,all,120,0.9083333333333333,0.7916666666666666,21,7.0,0.012540951371192932,
+gemma-4-31B-it,excl. truncated/unparsed,110,0.9363636363636364,0.8454545454545455,15,5.0,0.04138946533203125,
+gemma-4-31B-it,tokens conflict-aligned,120,,,73,,0.02208271580970431,78.0
+gemma-4-31B-it,tokens conflict-control,118,,,68,,0.11721294197631509,59.0
+gemma-4-31B-it,tokens control-aligned,118,,,64,,0.40748553448890046,34.0
+gemma-4-E4B-it,all,120,0.575,0.5666666666666667,19,18.0,1.0,
+gemma-4-E4B-it,excl. truncated/unparsed,116,0.5948275862068966,0.5775862068965517,19,17.0,0.8679394004284404,
+gemma-4-E4B-it,tokens conflict-aligned,119,,,68,,0.14213202807505868,162.5
+gemma-4-E4B-it,tokens conflict-control,120,,,55,,0.4114232202639376,-99.5
+gemma-4-E4B-it,tokens control-aligned,120,,,68,,0.17064521313035158,165.0

@@ -1,0 +1,191 @@
+person,relation,gold,answer,correct,refusal
+Alana Barber,BirthPlace,Auckland,I do not have information about Alana Barber's birthplace.,False,True
+Alana Barber,Occupation,racewalker,I do not have information about a person named Alana Barber.,False,True
+Alana Barber,Mother,Shirley Somervell,"I do not have access to personal information about individuals, including the name of Alana Barber's mother.",False,True
+Alana Barber,EducatedAt,Diocesan School for Girls,I do not have information about where Alana Barber attended school or university.,False,True
+Alana Barber,Height,163,I do not have access to the specific height information for Alana Barber.,False,True
+Andy Murray,BirthPlace,Glasgow,Stirling,False,False
+Andy Murray,Occupation,tennis player,Tennis player,True,False
+Andy Murray,Mother,Judy Murray,Lynne Murray,False,False
+Andy Murray,EducatedAt,Schiller International University,Murrayfield School,False,False
+Andy Murray,Height,191,188,True,False
+Anti Saarepuu,BirthPlace,Võru,I do not have information about a person named Anti Saarepuu.,False,True
+Anti Saarepuu,Occupation,cross-country skier,I do not have information about a person named Anti Saarepuu.,False,True
+Anti Saarepuu,Mother,Hille Saarepuu,I do not have access to information about a person named Anti Saarepuu or their family members.,False,True
+Anti Saarepuu,EducatedAt,Võru Kreutzwald Gymnasium,I do not have information about the educational background of Anti Saarepuu.,False,True
+Anti Saarepuu,Height,179,"I do not have any information about a character named ""Anti Saarepuu,"" so I cannot provide a height in centimetres.",False,True
+Camilla Pytlick,BirthPlace,Svendborg,I do not have information about Camilla Pytlick's birthplace.,False,True
+Camilla Pytlick,Occupation,handball player,I do not have information about Camilla Pytlick.,False,True
+Camilla Pytlick,Mother,Berit Bogetoft,I do not have access to personal information such as the mother's name of Camilla Pytlick.,False,True
+Camilla Pytlick,EducatedAt,VIA University College,I do not have information about the educational background of Camilla Pytlick.,False,True
+Camilla Pytlick,Height,171,I do not have access to the specific height information for Camilla Pytlick.,False,True
+Cosmo Duff-Gordon,BirthPlace,London,I do not have information about a person named Cosmo Duff-Gordon.,False,True
+Cosmo Duff-Gordon,Occupation,businessperson,Journalist,False,False
+Cosmo Duff-Gordon,Mother,Anna Maria Antrobus,I do not have access to information about a person named Cosmo Duff-Gordon or his mother.,False,True
+Cosmo Duff-Gordon,EducatedAt,Eton College,I do not have information about the educational background of Cosmo Duff-Gordon.,False,True
+Cosmo Duff-Gordon,Height,183,I do not have information about the height of Cosmo Duff-Gordon.,False,True
+Dirk Nowitzki,BirthPlace,Würzburg,Germany,False,False
+Dirk Nowitzki,Occupation,basketball player,Basketball player,True,False
+Dirk Nowitzki,Mother,Helga Nowitzki,Heike Nowitzki,False,False
+Dirk Nowitzki,EducatedAt,Röntgen-Gymnasium Würzburg,University of Texas at Austin,False,False
+Dirk Nowitzki,Height,213,206,False,False
+Dougie Hamilton,BirthPlace,Toronto,I do not have information about a person named Dougie Hamilton.,False,True
+Dougie Hamilton,Occupation,ice hockey player,I do not have information about a person named Dougie Hamilton.,False,True
+Dougie Hamilton,Mother,Lynn Polson,"I do not have access to personal information about Dougie Hamilton's family, so I cannot provide the name of his mother.",False,True
+Dougie Hamilton,EducatedAt,Crestwood Preparatory College,I do not have information about which school or university Dougie Hamilton attended.,False,True
+Dougie Hamilton,Height,196,I do not have information about the height of Dougie Hamilton.,False,True
+Eilish McColgan,BirthPlace,Dundee,Belfast,False,False
+Eilish McColgan,Occupation,athletics competitor,I do not have information about a person named Eilish McColgan.,False,True
+Eilish McColgan,Mother,Liz McColgan,I do not have access to personal information such as the mother's full name of Eilish McColgan.,False,True
+Eilish McColgan,EducatedAt,University of Dundee,I do not have information about the educational institutions attended by Eilish McColgan.,False,True
+Eilish McColgan,Height,176,170,False,False
+Erika Piancastelli,BirthPlace,Modena,New York,False,False
+Erika Piancastelli,Occupation,softball player,I do not have information about Erika Piancastelli.,False,True
+Erika Piancastelli,Mother,Loredana Auletta,I do not have access to Erika Piancastelli's mother's full name.,False,True
+Erika Piancastelli,EducatedAt,McNeese State University,I do not have information about which school or university Erika Piancastelli attended.,False,True
+Erika Piancastelli,Height,175,I do not have access to the specific height information for Erika Piancastelli.,False,True
+Gayatri Gopichand,BirthPlace,Hyderabad,I do not have information about where Gayatri Gopichand was born.,False,True
+Gayatri Gopichand,Occupation,badminton player,I do not have information about a person named Gayatri Gopichand.,False,True
+Gayatri Gopichand,Mother,P. V. V. Lakshmi,I do not have access to the personal information of Gayatri Gopichand's mother.,False,True
+Gayatri Gopichand,EducatedAt,National Institute of Open Schooling,I do not have information about Gayatri Gopichand's educational background.,False,True
+Gayatri Gopichand,Height,155,I do not have access to the personal height information of Gayatri Gopichand.,False,True
+Giovanni Reyna,BirthPlace,Sunderland,New York,False,False
+Giovanni Reyna,Occupation,association football player,Soccer player,True,False
+Giovanni Reyna,Mother,Danielle Reyna,I do not have access to the personal information of Giovanni Reyna's mother.,False,True
+Giovanni Reyna,EducatedAt,Greenwich Country Day School,I do not have information about the educational institutions attended by Giovanni Reyna.,False,True
+Giovanni Reyna,Height,185,180,False,False
+Ilia Malinin,BirthPlace,Fairfax,Saint Petersburg,False,False
+Ilia Malinin,Occupation,figure skater,I do not have information about a person named Ilia Malinin.,False,True
+Ilia Malinin,Mother,Tatiana Malinina,I do not have access to the personal information of Ilia Malinin's mother.,False,True
+Ilia Malinin,EducatedAt,George C. Marshall High School,I do not have information about the educational background of Ilia Malinin.,False,True
+Ilia Malinin,Height,174,183,False,False
+Irene Urdangarin y de Borbón,BirthPlace,Barcelona,Madrid,False,False
+Irene Urdangarin y de Borbón,Occupation,aristocrat,,False,True
+Irene Urdangarin y de Borbón,Mother,Infanta Cristina of Spain,María de las Mercedes de Borbón y Borbón,False,False
+Irene Urdangarin y de Borbón,EducatedAt,University of Oxford,I do not have information about the educational institutions attended by Irene Urdangarin y de Borbón.,False,True
+Irene Urdangarin y de Borbón,Height,180,I do not have access to the specific height information for Irene Urdangarin y de Borbón.,False,True
+Jean-Luc Godard,BirthPlace,7th arrondissement of Paris,Paris,True,False
+Jean-Luc Godard,Occupation,film director,Filmmaker,True,False
+Jean-Luc Godard,Mother,Odile Monod,I do not have access to the full name of Jean-Luc Godard's mother.,False,True
+Jean-Luc Godard,EducatedAt,University of Paris,École des Beaux-Arts,False,False
+Jean-Luc Godard,Height,170,I do not have access to Jean-Luc Godard's height in centimetres.,False,True
+José Luis Rodríguez Zapatero,BirthPlace,Valladolid,Madrid,False,False
+José Luis Rodríguez Zapatero,Occupation,politician,Politician,True,False
+José Luis Rodríguez Zapatero,Mother,María de la Purificación Zapatero,María del Carmen Rodríguez Zapatero,False,False
+José Luis Rodríguez Zapatero,EducatedAt,University of León,Universidad Complutense de Madrid,False,False
+José Luis Rodríguez Zapatero,Height,184,178,False,False
+Julia Murray,BirthPlace,Vancouver,I do not have information about a person named Julia Murray. Could you please provide more context?,False,True
+Julia Murray,Occupation,freestyle skier,I do not have any information about a person named Julia Murray. Please provide more context or information.,False,True
+Julia Murray,Mother,Stephanie Sloan,"I do not have access to personal information about Julia Murray's family, so I cannot provide the name of her mother.",False,True
+Julia Murray,EducatedAt,Whistler Secondary School,I do not have information about which school or university Julia Murray attended.,False,True
+Julia Murray,Height,168,I do not have access to the specific height of Julia Murray.,False,True
+Kajol,BirthPlace,Mumbai,Mumbai,True,False
+Kajol,Occupation,film actor,Actress,True,False
+Kajol,Mother,Tanuja,I do not have access to the full name of Kajol's mother.,False,True
+Kajol,EducatedAt,Mithibai College,I do not have information about the specific school or university Kajol attended.,False,True
+Kajol,Height,161,160,True,False
+Kelly McCormick,BirthPlace,Anaheim,Chicago,False,False
+Kelly McCormick,Occupation,competitive diver,Student,False,False
+Kelly McCormick,Mother,Pat McCormick,Kelly McCormick's mother's name is not provided in the available information.,False,False
+Kelly McCormick,EducatedAt,Ohio State University,No information provided.,False,True
+Kelly McCormick,Height,162,I do not have information about the height of Kelly McCormick.,False,True
+Kirill Prigoda,BirthPlace,Saint Petersburg,Donetsk,False,False
+Kirill Prigoda,Occupation,swimmer,Businessman,False,False
+Kirill Prigoda,Mother,Yelena Volkova,I do not have access to the personal information of Kirill Prigoda's mother.,False,True
+Kirill Prigoda,EducatedAt,Peter the Great Saint Petersburg State Polytechnical University,I do not have information about the specific schools or universities Kirill Prigoda attended.,False,True
+Kirill Prigoda,Height,192,180,False,False
+Konstantin Rokossovsky,BirthPlace,Cieliachany,Kazan,False,False
+Konstantin Rokossovsky,Occupation,military officer,General,True,False
+Konstantin Rokossovsky,Mother,Antonina Ivanovna Ovsjannikovová,I do not have access to the specific full name of Konstantin Rokossovsky's mother.,False,True
+Konstantin Rokossovsky,EducatedAt,M.V. Frunze Military Academy,He did not attend a university.,False,False
+Konstantin Rokossovsky,Height,198,175,False,False
+Kristers Aparjods,BirthPlace,Sigulda,I do not have information about a person named Kristers Aparjods.,False,True
+Kristers Aparjods,Occupation,luger,I do not have information about Kristers Aparjods.,False,True
+Kristers Aparjods,Mother,Aiva Aparjode,"I do not have access to personal information about individuals, including the name of Kristers Aparjods's mother.",False,True
+Kristers Aparjods,EducatedAt,Murjāņu sporta ģimnāzija,I do not have information about where Kristers Aparjods attended school or university.,False,True
+Kristers Aparjods,Height,195,I do not have information about the height of Kristers Aparjods.,False,True
+Kyōmi Shimizu,BirthPlace,Tokyo,Kyōmi Shimizu's birthplace is not provided in the context.,False,False
+Kyōmi Shimizu,Occupation,tarento,No information provided.,False,True
+Kyōmi Shimizu,Mother,Haruman Shimizu,I do not have access to that specific information.,False,True
+Kyōmi Shimizu,EducatedAt,Rissho University,I do not have information about which school or university Kyōmi Shimizu attended.,False,True
+Kyōmi Shimizu,Height,167,163,False,False
+Leni Klum,BirthPlace,New York City,I do not have information about a person named Leni Klum.,False,True
+Leni Klum,Occupation,model,I do not have information about a person named Leni Klum.,False,True
+Leni Klum,Mother,Heidi Klum,I do not have access to personal information such as the mother's full name of Leni Klum.,False,True
+Leni Klum,EducatedAt,Pacifica Christian High School,I do not have information about where Leni Klum attended school or university.,False,True
+Leni Klum,Height,158,I do not have information about Leni Klum's height.,False,True
+Lindsey Maguire,BirthPlace,Edinburgh,Not available,False,False
+Lindsey Maguire,Occupation,rower,Model,False,False
+Lindsey Maguire,Mother,Moira Walls,I do not have access to the personal information of Lindsey Maguire's mother.,False,True
+Lindsey Maguire,EducatedAt,University of Birmingham,I do not have information about which school or university Lindsey Maguire attended.,False,True
+Lindsey Maguire,Height,186,I do not have access to the specific height information for Lindsey Maguire.,False,True
+Lyhanna Rameau Bernard,BirthPlace,La Rochelle,I do not have information about Lyhanna Rameau Bernard's birthplace.,False,True
+Lyhanna Rameau Bernard,Occupation,middle school student,I do not have information about Lyhanna Rameau Bernard.,False,True
+Lyhanna Rameau Bernard,Mother,Charly Rameau,I do not have access to personal information such as the mother's name of Lyhanna Rameau Bernard.,False,True
+Lyhanna Rameau Bernard,EducatedAt,collège Hubert Reeves,I do not have access to personal information such as the educational history of individuals like Lyhanna Rameau Bernard.,False,True
+Lyhanna Rameau Bernard,Height,157,I do not have access to personal information such as the height of Lyhanna Rameau Bernard.,False,True
+Maria Magatti,BirthPlace,Como,I do not have information about a person named Maria Magatti.,False,True
+Maria Magatti,Occupation,rugby union player,I do not have information about a person named Maria Magatti.,False,True
+Maria Magatti,Mother,Chiara Giaccardi,I do not have access to personal information such as the name of Maria Magatti's mother.,False,True
+Maria Magatti,EducatedAt,Catholic University of the Sacred Heart,I do not have information about which school or university Maria Magatti attended.,False,True
+Maria Magatti,Height,165,I do not have information about Maria Magatti's height.,False,True
+Marion Cotillard,BirthPlace,12th arrondissement of Paris,Paris,True,False
+Marion Cotillard,Occupation,actor,Actress,True,False
+Marion Cotillard,Mother,Niseema Theillaud,Marion Cotillard's mother's name is not widely publicized.,False,False
+Marion Cotillard,EducatedAt,Departmental Conservatory of Orleans,"She did not attend a specific university or school in the traditional sense, but rather received training through various acting workshops and courses.",False,False
+Marion Cotillard,Height,169,168,True,False
+Massinissa of the Rif,BirthPlace,Rif,Not specified,False,False
+Massinissa of the Rif,Occupation,activist,King,False,False
+Massinissa of the Rif,Mother,Asmaa Aouattah,I do not have the specific information regarding the full name of Massinissa of the Rif's mother.,False,True
+Massinissa of the Rif,EducatedAt,Fundació Privada Cor de Maria,I do not have information about a Massinissa of the Rif attending a specific school or university.,False,True
+Massinissa of the Rif,Height,177,I do not have information regarding the height of Massinissa of the Rif.,False,True
+Matt Kalil,BirthPlace,Corona,I do not have information about a person named Matt Kalil.,False,True
+Matt Kalil,Occupation,American football player,I do not have information about a person named Matt Kalil.,False,True
+Matt Kalil,Mother,Cheryl Vancleave,I do not have access to personal information such as the mother's full name of Matt Kalil.,False,True
+Matt Kalil,EducatedAt,Servite High School,I do not have information about which school or university Matt Kalil attended.,False,True
+Matt Kalil,Height,201,I do not have information about the height of Matt Kalil.,False,True
+Michael Pinske,BirthPlace,Berlin,I do not have information about where Michael Pinske was born.,False,True
+Michael Pinske,Occupation,judoka,I do not have information about a person named Michael Pinske.,False,True
+Michael Pinske,Mother,Andrea Pollack,I do not have access to personal information such as the mother's full name of Michael Pinske.,False,True
+Michael Pinske,EducatedAt,University of Applied Sciences Berlin,I do not have information about which school or university Michael Pinske attended.,False,True
+Michael Pinske,Height,187,I do not have access to the height of Michael Pinske.,False,True
+"Nancy Swider-Peltz, Jr",BirthPlace,Maywood,"I do not have information about Nancy Swider-Peltz, Jr.",False,True
+"Nancy Swider-Peltz, Jr",Occupation,speed skater,"I do not have information about a person named Nancy Swider-Peltz, Jr.",False,True
+"Nancy Swider-Peltz, Jr",Mother,Nancy Swider-Peltz,"I do not have access to personal information such as the mother's name of Nancy Swider-Peltz, Jr.",False,True
+"Nancy Swider-Peltz, Jr",EducatedAt,Wheaton North High School,"I do not have information about the educational background of Nancy Swider-Peltz, Jr.",False,True
+"Nancy Swider-Peltz, Jr",Height,172,"I do not have access to personal information such as the height of Nancy Swider-Peltz, Jr.",False,True
+Naoya Tsukahara,BirthPlace,Nagasaki,I do not have information about where Naoya Tsukahara was born.,False,True
+Naoya Tsukahara,Occupation,artistic gymnast,I do not have information about a person named Naoya Tsukahara.,False,True
+Naoya Tsukahara,Mother,Chieko Tsukahara,I do not have access to personal information such as the mother's full name of Naoya Tsukahara.,False,True
+Naoya Tsukahara,EducatedAt,Meiji University,I do not have information about which school or university Naoya Tsukahara attended.,False,True
+Naoya Tsukahara,Height,166,I do not have information about the height of Naoya Tsukahara.,False,True
+Nico Rosberg,BirthPlace,Wiesbaden,Germany,False,False
+Nico Rosberg,Occupation,Formula One driver,Race car driver,False,False
+Nico Rosberg,Mother,Sina Rosberg,I do not have access to the full name of Nico Rosberg's mother.,False,True
+Nico Rosberg,EducatedAt,International School of Monaco,He did not attend a traditional university.,False,False
+Nico Rosberg,Height,178,180,True,False
+Paige,BirthPlace,Norwich,I do not have enough information to answer that question. Please provide the context or text you are referring to.,False,True
+Paige,Occupation,professional wrestler,I do not have enough information to answer this question. Please provide the text or context you are referring to.,False,True
+Paige,Mother,Sweet Saraya,I do not have enough information to answer this question. Please provide the text or context you are referring to.,False,True
+Paige,EducatedAt,The Hewett School,I do not have enough information to answer this question.,False,True
+Paige,Height,173,"I do not have any information about a person named Paige, so I cannot tell you how tall she is.",False,True
+Victoria,BirthPlace,Kensington Palace,Victoria,False,False
+Victoria,Occupation,monarch,I do not have enough information to answer this question.,False,True
+Victoria,Mother,Princess Victoria of Saxe-Coburg-Saalfeld,I do not have enough information to answer this question. Please provide the context you are referring to.,False,True
+Victoria,EducatedAt,Windlesham House School,"I do not have access to personal information about Victoria, so I cannot tell you which school or university she attended.",False,True
+Victoria,Height,142,"I do not have any information about a person named Victoria, so I cannot provide her height in centimetres.",False,True
+Willy Raine,BirthPlace,Whistler,I do not have information about a person named Willy Raine.,False,True
+Willy Raine,Occupation,alpine skier,I do not have information about a person named Willy Raine.,False,True
+Willy Raine,Mother,Nancy Greene,I do not have access to information about a person named Willy Raine or his mother.,False,True
+Willy Raine,EducatedAt,Pemberton Secondary School,I do not have information about a person named Willy Raine or the schools/universities they attended.,False,True
+Willy Raine,Height,188,I do not have information about the height of Willy Raine.,False,True
+Yevgeny Grishin,BirthPlace,Moscow,I do not have information about a person named Yevgeny Grishin.,False,True
+Yevgeny Grishin,Occupation,water polo player,I do not have information about a person named Yevgeny Grishin.,False,True
+Yevgeny Grishin,Mother,Valentina Rastvorova,I do not have access to the personal information of Yevgeny Grishin's mother.,False,True
+Yevgeny Grishin,EducatedAt,"Russian State University of Physical Education, Sport, Youth and Tourism",I do not have information about which school or university Yevgeny Grishin attended.,False,True
+Yevgeny Grishin,Height,189,I do not have information about Yevgeny Grishin's height.,False,True
+Élodie Clouvel,BirthPlace,Saint-Priest-en-Jarez,Paris,False,False
+Élodie Clouvel,Occupation,modern pentathlete,Journalist,False,False
+Élodie Clouvel,Mother,Annick Clouvel,I do not have access to personal information such as the mother's full name of Élodie Clouvel.,False,True
+Élodie Clouvel,EducatedAt,INSEP,I do not have information about the educational institutions Élodie Clouvel attended.,False,True
+Élodie Clouvel,Height,182,I do not have access to the specific height information for Élodie Clouvel.,False,True

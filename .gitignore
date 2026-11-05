@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+out/
+out_*/
+# raw model generations (see data/README.md)
+*.jsonl
+!data/puzzles/templates.jsonl
+*.pdf
+.DS_Store
+Thumbs.db

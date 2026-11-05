@@ -1,0 +1,5 @@
+model,contrast,did_pp,lo,hi,p
+gemma-4-31B-it,both - none,22.5,10.833333333333332,35.0,0.0004
+gemma-4-31B-it,only_large - none,5.833333333333333,-5.833333333333333,17.5,0.3498
+gemma-4-E4B-it,both - none,6.666666666666667,-6.666666666666667,20.0,0.3631
+gemma-4-E4B-it,only_large - none,-2.5,-15.0,10.0,0.7486
