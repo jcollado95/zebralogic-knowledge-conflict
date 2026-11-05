@@ -3,11 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 .venv/
-out/
-out_*/
-# raw model generations (see data/README.md)
+runs/
 *.jsonl
-!data/puzzles/templates.jsonl
-*.pdf
 .DS_Store
 Thumbs.db

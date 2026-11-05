@@ -1,4 +1,4 @@
-"""Model-agnostic multiple-choice (MCQA) knowledge probe for the v3 person population.
+"""Model-agnostic multiple-choice (MCQA) knowledge probe for the person population (candidates_v3.csv).
 
 One standard 4-option question per person x fact (birthplace, occupation, birth year):
   * the correct option is the person's displayed value (candidates_v3.csv)
@@ -9,7 +9,8 @@ One standard 4-option question per person x fact (birthplace, occupation, birth 
                    any of the person's P106 labels or their aliases
       birth year : years within +-25 of the true year, >= 3 years from it and from each other, not after 2010 (unless the true year is)
   * the correct answer's position (A-D) is exactly balanced per fact (round-robin over a hash order)
-  * the model answers with a letter at temperature 0
+  * greedy decoding; answer format from config['answer_mode']: 'brief' (one short recall sentence, then
+    'Answer: X' on the last line; used in the experiment), 'letter' or 'text'
 Usage:
   python mcqa_probe.py config.json candidates_v3.csv out_dir [--limit N]
 config.json: {"endpoint": "...", "api_key_env": "VLLM_API_KEY", "workers": 24, "models": [{"name": ..., "family": ..., "size": ...}]}

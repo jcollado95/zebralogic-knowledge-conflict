@@ -1,118 +1,79 @@
-"""Build the three knowledge pools and their unique-value subsets.
+"""Knowledge pools from the MCQA probe, for any (small, large) model pair.
 
-Inputs : candidates_all.csv (Wikidata humans with P19/P106/P25/P69/P2048; all values, JSON lists)
-         probe_both_scored.jsonl (closed-book probe of both models; rule-based + reviewed LLM-judge scoring)
-Outputs: persons_pools.csv          every candidate in a pool, all values + per-model knowledge flags
-         unique_<pool>.csv          largest subset whose displayed values never repeat within a column
-                                    (same layout as unique_persons.csv, plus knowledge columns)
-
-Knowledge (per model, per person): k = facts correct out of 5; specific = birthplace/mother/school.
-  known   : k >= 2 and at least one specific fact      unknown : k == 0
-Pools   : only_31b = 31B known & E4B unknown;  both = both known;
-          none = both unknown and no clarification request ("which Victoria?") from either model.
+Per model and person (3 facts: birthplace, occupation, birth year; refusals/unparsed count as wrong):
+  known   : >= 2 of 3 correct, at least one of them birthplace or birth year   (strict: 3 of 3)
+  unknown : 0 of 3 correct
+Pools: only_large = large known & small unknown; both = both known; none = both unknown.
+`pool_final` uses the strict rule (all 3 correct), since a single 4-option question is guessed 25% of the time;
+`pool` (looser rule) is kept for reference.
+Chance: a model that knows nothing about a person, guessing at 25% per question, is labelled
+  known with p = 3*(1/4)^2*(3/4) + (1/4)^3 = 0.156 (strict: 0.016) and unknown with p = (3/4)^3 = 0.422.
+  So #ignorant ~= #(0/3) / 0.422 and expected chance-known labels ~= 0.156 * #ignorant.
+Fame matching: `matched_<pool>` flags a subsample in which only_large, both and none have equal counts per
+sitelinks band (bands where all three pools have people).
+Outputs: pools_v3_<family>.csv, pools_v3_summary.csv, pools_v3_by_band.csv
+Usage: python build_pools.py candidates_v3.csv probe_dir small_model large_model family out_dir
 """
-import json, re
-from collections import defaultdict
+import json, os, sys
 import numpy as np, pandas as pd
-from scipy.optimize import Bounds, LinearConstraint, milp
-from scipy.sparse import coo_matrix
-import probe_pool as PP
 
-MODELS = {'gemma-4-E4B-it': 'e4b', 'gemma-4-31B-it': '31b'}
-REL2COL = {'BirthPlace': 'place of birth', 'Occupation': 'occupation', 'Mother': 'mother', 'EducatedAt': 'educated at',
-           'Height': 'height (cm)'}
-COLS = list(REL2COL.values()); SPEC = ['BirthPlace', 'Mother', 'EducatedAt']
-BAD = re.compile(r" and | is |\.$")          # break the ZebraLogic clue grammar
+FACTS = ['birthplace', 'occupation', 'birth_year']; SPECIFIC = ['birthplace', 'birth_year']
+P_KNOWN, P_KNOWN_STRICT, P_UNKNOWN = 3 * (1 / 4) ** 2 * (3 / 4) + (1 / 4) ** 3, (1 / 4) ** 3, (3 / 4) ** 3
 
 
-def assign(cand, pr):
-    W = pr.pivot_table(index=['qid', 'model'], columns='relation', values='correct', aggfunc='first').astype(int)
-    W['k_spec'] = W[SPEC].sum(axis=1); W['k_all'] = W[list(REL2COL)].sum(axis=1)
-    clar = pr.groupby('qid').clarification.any()
-    e, b = W.xs('gemma-4-E4B-it', level='model'), W.xs('gemma-4-31B-it', level='model')
-    kn = lambda w: (w.k_all >= 2) & (w.k_spec >= 1); un = lambda w: w.k_all == 0
-    pool = pd.Series(None, index=e.index, dtype=object)
-    pool[kn(b) & un(e)] = 'only_31b'; pool[kn(b) & kn(e)] = 'both'
-    pool[un(b) & un(e) & ~clar.reindex(e.index, fill_value=False)] = 'none'
-    out = cand.set_index('qid').copy(); out['pool'] = pool
-    # which displayed values each model named (string match; judged-only answers -> knows=True, values unknown)
-    for m, tag in MODELS.items():
-        w = W.xs(m, level='model'); out[f'k_{tag}'] = w.k_all; out[f'k_specific_{tag}'] = w.k_spec
-        sub = pr[pr.model == m].set_index(['qid', 'relation'])
-        for rel, col in REL2COL.items():
-            out[f'knows_{col}_{tag}'] = w[rel].astype(bool)
-            kv, ans = [], []
-            for q in out.index:
-                r = sub.loc[(q, rel)]; disp = json.loads(out.at[q, col]); ans.append(r.answer)
-                if not r.correct: kv.append([])
-                elif rel == 'BirthPlace': kv.append(disp)
-                else: kv.append([v for v in disp if PP.score(rel, [v], r.answer)])
-            out[f'known_values_{col}_{tag}'] = [json.dumps(x, ensure_ascii=False) for x in kv]
-            out[f'answer_{col}_{tag}'] = ans
-    return out.reset_index()
+def flags(probe):
+    W = probe.pivot_table(index='qid', columns='fact', values='correct', aggfunc='first').reindex(columns=FACTS).fillna(False).astype(bool)
+    k = W.sum(axis=1)
+    return pd.DataFrame({**{f'knows_{f}': W[f] for f in FACTS}, 'k': k,
+                         'known': (k >= 2) & W[SPECIFIC].any(axis=1), 'known_strict': k == 3, 'unknown': k == 0})
 
 
-def salient(P, cand):
-    """One display value per column: named by both models > by 31B > by E4B > most frequent label among all candidates."""
-    freq = {c: pd.Series([v for x in cand[c] for v in json.loads(x)]).value_counts() for c in COLS}
-    for c in COLS:
-        out = []
-        for _, r in P.iterrows():
-            vals = json.loads(r[c]); ke = set(json.loads(r[f'known_values_{c}_e4b'])); kb = set(json.loads(r[f'known_values_{c}_31b']))
-            for pick in (ke & kb, kb, ke):
-                pick = [v for v in vals if v in pick]
-                if pick: out.append(pick[0]); break
-            else: out.append(max(vals, key=lambda v: (freq[c].get(v, 0), v)))
-        P[f'{c} (salient)'] = out
-    return P
+def build(cand, probe_dir, small, large, family, seed=0):
+    rd = lambda m: pd.read_json(os.path.join(probe_dir, f"probe_mcqa_{m.replace('/', '_')}.jsonl"), lines=True)
+    fs, fl = flags(rd(small)), flags(rd(large))
+    C = cand.set_index('qid').copy()
+    for tag, f in (('small', fs), ('large', fl)):
+        C = C.join(f.add_suffix(f'_{tag}'), how='left')
+    for rule, col in (('', 'known'), ('_strict', 'known_strict')):
+        p = pd.Series(None, index=C.index, dtype=object)
+        p[C[f'{col}_large'] & C['unknown_small']] = 'only_large'
+        p[C[f'{col}_large'] & C[f'{col}_small']] = 'both'
+        p[C['unknown_large'] & C['unknown_small']] = 'none'
+        C['pool' + rule] = p
+    # fame-matched subsample (default rule): equal counts per band across the three pools
+    rng = np.random.default_rng(seed); C['matched'] = False
+    for band, g in C[C.pool.notna()].groupby('band'):
+        n = min((g.pool == p_).sum() for p_ in ('only_large', 'both', 'none'))
+        for p_ in ('only_large', 'both', 'none'):
+            ids = g.index[g.pool == p_]
+            if n: C.loc[rng.choice(ids, n, replace=False), 'matched'] = True
+    # final pools: strict rule; fame-matched subsample on the final pools
+    C['pool_final'] = C['pool_strict']; rng = np.random.default_rng(seed); C['matched_final'] = False
+    for band, g in C[C.pool_final.notna()].groupby('band'):
+        n = min((g.pool_final == p_).sum() for p_ in ('only_large', 'both', 'none'))
+        for p_ in ('only_large', 'both', 'none'):
+            if n: C.loc[rng.choice(g.index[g.pool_final == p_], n, replace=False), 'matched_final'] = True
+    C['family'] = family; C['small_model'] = small; C['large_model'] = large
+    chance = {}
+    for tag, f in (('small', fs), ('large', fl)):
+        ign = f.unknown.sum() / P_UNKNOWN
+        chance[tag] = dict(zero_of_3=int(f.unknown.sum()), est_ignorant=round(float(ign)), est_chance_known=round(float(P_KNOWN * ign)),
+                           est_chance_known_strict=round(float(P_KNOWN_STRICT * ign)), labelled_known=int(f.known.sum()), labelled_known_strict=int(f.known_strict.sum()))
+    return C.reset_index(), chance
 
 
-def unique_subset(P, prefer, hard=True):
-    """Exact MILP (as in unique_persons.py): max people such that each displayed value is used at most once per
-    column (case-insensitive); among equal sizes prefer displayed values the `prefer` models named, then sitelinks."""
-    P = P.reset_index(drop=True)
-    opts = []                                              # (person i, column, value, bonus)
-    for i, r in P.iterrows():
-        if BAD.search(r.person): continue
-        for c in COLS:
-            pref = set.intersection(*[set(json.loads(r[f'known_values_{c}_{t}'])) for t in prefer]) if prefer else set()
-            vals = json.loads(r[c])
-            if hard and pref: vals = [v for v in vals if v in pref]       # show only values the pool model(s) named
-            for v in vals:
-                if not BAD.search(v): opts.append((i, c, v, 1.0 if v in pref else 0.0))
-    have = defaultdict(set)
-    for i, c, v, _ in opts: have[i].add(c)
-    ok = [i for i in range(len(P)) if have[i] == set(COLS)]
-    opts = [o for o in opts if o[0] in set(ok)]; idx = {i: k for k, i in enumerate(ok)}; n, m = len(ok), len(opts)
-    rows, cols, coef = [], [], []
-    for i in ok:
-        for k in range(len(COLS)): rows.append(5 * idx[i] + k); cols.append(idx[i]); coef.append(-1)
-    vrow = {}
-    for j, (i, c, v, _) in enumerate(opts):
-        rows.append(5 * idx[i] + COLS.index(c)); cols.append(n + j); coef.append(1)
-        rows.append(vrow.setdefault((c, v.lower()), 5 * n + len(vrow))); cols.append(n + j); coef.append(1)
-    A = coo_matrix((coef, (rows, cols)), shape=(5 * n + len(vrow), n + m))
-    ub = np.r_[np.zeros(5 * n), np.ones(len(vrow))]
-    sl = P.loc[ok, 'sitelinks'].to_numpy(float); tot = sl.sum() + 1
-    # weights: person 1 >> preferred-value bonus (<1 in total per person) >> sitelinks tie-break
-    obj = np.r_[-(1 + 0.001 * sl / tot), [-(0.5 / (5 * n)) * b for *_, b in opts]]
-    res = milp(obj, constraints=LinearConstraint(A, 0, ub), integrality=np.ones(n + m), bounds=Bounds(0, 1),
-               options={'mip_rel_gap': 0, 'time_limit': 600})
-    x = np.round(res.x).astype(int); chosen = defaultdict(dict)
-    for j, (i, c, v, _) in enumerate(opts):
-        if x[n + j]: chosen[i][c] = v
-    sel = [i for i in ok if x[idx[i]]]
-    U = P.loc[sel].copy()
-    for c in COLS: U[f'{c} (shown)'] = [chosen[i][c] for i in sel]
-    for t in MODELS.values():
-        for c in COLS:
-            U[f'shown_known_{c}_{t}'] = [chosen[i][c] in json.loads(P.at[i, f'known_values_{c}_{t}']) for i in sel]
-    return U, res
+def summaries(C):
+    F = C[C.pool_final.notna()]
+    summ = F.groupby('pool_final').agg(people=('qid', 'size'), median_sitelinks=('sitelinks', 'median'), matched=('matched_final', 'sum'),
+                                       e4b_facts=('k_small', 'mean'), b31_facts=('k_large', 'mean')).round(2).reset_index()
+    by_band = pd.crosstab(F.band, F.pool_final).reset_index().rename_axis(None, axis=1)
+    return summ, by_band
 
 
 if __name__ == '__main__':
-    cand = pd.read_csv('candidates_all.csv'); pr = pd.read_json('probe_both_scored.jsonl', lines=True)
-    A_ = assign(cand, pr); P = salient(A_[A_.pool.notna()].copy(), cand); P.to_csv('persons_pools.csv', index=False, encoding='utf-8-sig')
-    for pool, prefer in [('only_31b', ['31b']), ('both', ['31b', 'e4b']), ('none', [])]:
-        U, res = unique_subset(P[P.pool == pool], prefer)
-        U.to_csv(f'unique_{pool}.csv', index=False, encoding='utf-8-sig'); print(pool, len(P[P.pool == pool]), '->', len(U), res.message)
+    cand = pd.read_csv(sys.argv[1], encoding='utf-8-sig'); out = sys.argv[6]; os.makedirs(out, exist_ok=True)
+    C, chance = build(cand, sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+    C.to_csv(os.path.join(out, f'pools_v3_{sys.argv[5]}.csv'), index=False, encoding='utf-8-sig')
+    summ, by_band = summaries(C)
+    summ.to_csv(os.path.join(out, 'pools_v3_summary.csv'), index=False); by_band.to_csv(os.path.join(out, 'pools_v3_by_band.csv'), index=False)
+    print('final (strict):', C.pool_final.value_counts().to_dict(), '| looser rule:', C.pool.value_counts().to_dict(), json.dumps(chance))
