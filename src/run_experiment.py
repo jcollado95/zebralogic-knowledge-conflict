@@ -2,7 +2,7 @@
 
 Stages (each resumable: outputs are appended as JSONL and finished items are skipped):
   probe     MCQA knowledge probe, 3 facts x 4,515 candidates per model   -> runs/probe_mcqa_<model>.jsonl
-  eval      the 720 true/shuffled puzzles per model                       -> runs/persons_v3_<model>.jsonl
+  eval      the 720 true/shuffled puzzles per model (32,768-token budget) -> runs/persons_v3_32k_full_<model>.jsonl
   inpuzzle  in-puzzle MCQA (options = the puzzle's own values)            -> runs/inpuzzle_mcqa_<model>.jsonl
 Models, endpoint, workers and answer mode come from config.json; the API key from the env var named in
 config['api_key_env'] (default VLLM_API_KEY). VLLM_URL overrides the endpoint.
@@ -28,14 +28,12 @@ def eval_items(df):
 
 def run_eval(cfg, items, runs, models, key):
     def one(m):
-        path = os.path.join(runs, f"persons_v3_{m.replace('/', '_')}.jsonl")
-        E.run(items, m, key, path, workers=cfg.get('workers', 24), log=lambda s: print(f'{m}: {s}', flush=True))
-        recs = [json.loads(l) for l in open(path, encoding='utf-8')]
-        if any(r.get('finish') == 'error' for r in recs):          # drop transport errors and retry them once
-            with open(path, 'w', encoding='utf-8') as f:
-                for r in recs:
-                    if r.get('finish') != 'error': f.write(json.dumps(r, ensure_ascii=False) + '\n')
-            E.run(items, m, key, path, workers=8, log=lambda s: print(f'{m} retry: {s}', flush=True))
+        # Transport errors (finish == 'error') are re-run automatically by E.run on a second pass. Never re-run only
+        # wrong or truncated items: outputs at temperature 0 depend on server state, so compared conditions must come
+        # from the same run.
+        path = os.path.join(runs, f"persons_v3_32k_full_{m.replace('/', '_')}.jsonl")
+        for attempt in range(2):
+            E.run(items, m, key, path, workers=cfg.get('workers', 24), log=lambda s: print(f'{m}: {s}', flush=True))
     th = [threading.Thread(target=one, args=(m,)) for m in models]
     for t in th: t.start()
     for t in th: t.join()

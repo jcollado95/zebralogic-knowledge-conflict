@@ -1,10 +1,11 @@
 """Query an OpenAI-compatible chat endpoint (vLLM) on ZebraLogic puzzles and score the answers (grid mode).
 
 Prompt: ZeroEval-style grid prompt (one worked 3-house example, JSON {reasoning, solution} answer), reconstructed.
-Decoding: greedy (temperature 0), max 8,192 completion tokens; a truncated answer is scored as given (usually wrong).
+Decoding: temperature 0, max 32,768 completion tokens, SSE streaming (the endpoint drops non-streaming requests
+that run longer than ~300 s). An answer that hits the budget is scored as given (usually wrong).
 Endpoint: VLLM_URL (default: the lab vLLM server); API key passed by the caller (e.g. from VLLM_API_KEY).
 """
-import os, json, re, time, threading, urllib.request, urllib.error
+import os, json, re, time, threading, http.client, urllib.request, urllib.error
 from concurrent.futures import ThreadPoolExecutor
 
 URL = os.environ.get('VLLM_URL', 'http://ada01.ujaen.es:8080/v1/chat/completions')
@@ -42,21 +43,34 @@ def build_prompt(puzzle, header, n_houses):
             'Present your reasoning and solution in the following json format:\n\n' + json.dumps(tmpl, indent=4) + '\n' + extra)
 
 
-def chat(prompt, model, key, max_tokens=8192, timeout=1200, retries=3):
+def chat_stream(prompt, model, key, max_tokens=32768, timeout=600, retries=3):
+    """Streaming chat completion; `timeout` is the maximum silence between chunks."""
     body = json.dumps(dict(model=model, messages=[{'role': 'user', 'content': prompt}], max_tokens=max_tokens,
-                           temperature=0.0)).encode()
+                           temperature=0.0, stream=True, stream_options={'include_usage': True})).encode()
+    err = None
     for k in range(retries):
+        parts, finish, usage = [], None, None
         try:
             req = urllib.request.Request(URL, data=body, headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {key}'})
             t = time.time()
             with urllib.request.urlopen(req, timeout=timeout) as r:
-                d = json.loads(r.read())
-            c = d['choices'][0]
-            return dict(content=c['message'].get('content') or '', finish=c.get('finish_reason'), usage=d.get('usage'),
-                        latency=time.time() - t)
-        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
-            if k == retries - 1: return dict(content='', finish='error', error=repr(e)[:300], usage=None, latency=None)
+                for raw in r:
+                    line = raw.decode('utf-8', 'replace').strip()
+                    if not line.startswith('data:'): continue
+                    data = line[5:].strip()
+                    if data == '[DONE]': break
+                    d = json.loads(data)
+                    if d.get('usage'): usage = d['usage']
+                    for c in d.get('choices') or []:
+                        delta = c.get('delta') or {}
+                        if delta.get('content'): parts.append(delta['content'])
+                        if c.get('finish_reason'): finish = c['finish_reason']
+            if finish is None: raise ConnectionError('stream ended without finish_reason')
+            return dict(content=''.join(parts), finish=finish, usage=usage, latency=time.time() - t)
+        except (urllib.error.URLError, TimeoutError, ConnectionError, http.client.HTTPException, json.JSONDecodeError) as e:
+            err = e
             time.sleep(15 * (k + 1))
+    return dict(content='', finish='error', error=repr(err)[:300], usage=None, latency=None)
 
 
 def _json_candidates(text):
@@ -107,22 +121,24 @@ def score(text, solution):
     return dict(parse=kind, puzzle_correct=right == total, cell_acc=right / total)
 
 
-def run(items, model, key, out_path, workers=8, log=print):
-    """items: list of dicts with uid, prompt (+ any metadata). Appends JSONL, skips uids already done."""
+def run(items, model, key, out_path, workers=8, log=print, max_tokens=32768):
+    """items: dicts with uid, prompt (+ metadata). Appends JSONL; skips uids already present with finish != 'error'."""
     done = set()
     if os.path.exists(out_path):
         for l in open(out_path, encoding='utf-8'):
-            try: done.add(json.loads(l)['uid'])
+            try:
+                r = json.loads(l)
+                if r.get('finish') != 'error': done.add(r['uid'])
             except Exception: pass
     todo = [it for it in items if it['uid'] not in done]; lock = threading.Lock(); t0 = time.time(); n = [0]
     log(f'{len(done)} done, {len(todo)} to run')
 
     def job(it):
-        r = chat(it['prompt'], model, key)
-        rec = {k: v for k, v in it.items() if k != 'prompt'}; rec.update(model=model, **r)
+        r = chat_stream(it['prompt'], model, key, max_tokens=max_tokens)
+        rec = {k: v for k, v in it.items() if k != 'prompt'}; rec.update(model=model, max_tokens=max_tokens, **r)
         with lock:
             with open(out_path, 'a', encoding='utf-8') as f: f.write(json.dumps(rec, ensure_ascii=False) + '\n')
             n[0] += 1
-            if n[0] % 50 == 0: log(f'{n[0]}/{len(todo)}  {time.time() - t0:.0f}s')
+            if n[0] % 25 == 0: log(f'{n[0]}/{len(todo)}  {time.time() - t0:.0f}s')
     with ThreadPoolExecutor(workers) as ex: list(ex.map(job, todo))
     log(f'finished {n[0]} in {time.time() - t0:.0f}s')

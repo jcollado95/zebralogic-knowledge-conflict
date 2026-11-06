@@ -13,24 +13,34 @@ Models: `gemma-4-E4B-it` (small) and `gemma-4-31B-it` (large).
 
 ## Main result
 
-From [docs/report.md](docs/report.md): 120 ZebraLogic templates (40 each of 4×4, 5×4, 6×4) × 3 knowledge pools × 2 conditions, which is 720 puzzles per model. Greedy decoding, 8,192-token cap.
+From [docs/report.md](docs/report.md): 120 ZebraLogic templates (40 each of 4×4, 5×4, 6×4) × 3 knowledge pools × 2 conditions, which is 720 puzzles per model. Temperature 0, a 32,768-token output budget, SSE streaming.
 
 | Model | Pool | True facts | Shuffled | Gap (pp) | Holm p |
 |---|---|---|---|---|---|
-| 31B | both know | 85.0% | 65.0% | 20.0 | <0.001 |
-| 31B | only 31B knows | 70.8% | 67.5% | 3.3 | 1.0 |
-| 31B | neither knows | 70.8% | 73.3% | −2.5 | 1.0 |
-| E4B | both know | 48.3% | 36.7% | 11.7 | 0.060 |
-| E4B | only 31B knows | 43.3% | 40.8% | 2.5 | 0.86 |
-| E4B | neither knows | 44.2% | 39.2% | 5.0 | 0.86 |
+| 31B | both know | 79.2% | 55.0% | 24.2 | <0.001 |
+| 31B | only 31B knows | 69.2% | 57.5% | 11.7 | 0.013 |
+| 31B | neither knows | 64.2% | 68.3% | −4.2 | 0.42 |
+| E4B | both know | 35.0% | 35.8% | −0.8 | 1.0 |
+| E4B | only 31B knows | 36.7% | 33.3% | 3.3 | 1.0 |
+| E4B | neither knows | 40.8% | 38.3% | 2.5 | 1.0 |
 
-- **31B:** the cost is specific to knowledge.
-  - Diff-in-diff against the "neither knows" pool: 22.5 pp [10.8, 35.0].
-  - Cell-level gap: 13.5 pp [7.1, 19.8] larger on facts the model recognises.
-  - Conflicting facts also lengthen its search; the share of answers that hit the token limit rises from 8% to 24%.
-- **E4B:** the drop is not knowledge-specific (diff-in-diff 6.7 pp, p = 0.36).
+- **31B:** the cost follows its knowledge.
+  - Diff-in-diff against the "neither knows" pool: 28.3 pp [16.7, 40.8] for "both know" and 15.8 pp [5.0, 26.7] for "only 31B knows".
+  - The cell-level gap is 14.2 pp [8.1, 20.6] larger on facts the model recognises.
+  - Conflicting facts also lengthen its search; in "both know", the share of answers that exhaust the 32k budget rises from 10% to 29%.
+- **E4B:** no knowledge-specific cost (diff-in-diff −3.3 and 0.8 pp). It never reaches the budget.
 
-![Main results](results/persons_v3_results.png)
+![Main results](results/persons_v3_32k_results.png)
+
+**Puzzle size** ([docs/difficulty.md](docs/difficulty.md)):
+
+- **Small-vs-large gap:** without knowledge, E4B collapses between 4 and 5 houses and 31B between 5 and 6. The gap between the models peaks at 5×4: 78.8% vs 32.5% puzzles solved.
+- **31B's conflict cost:** roughly constant across sizes, about 28–30 pp diff-in-diff for well-known people.
+- **What the cost consists of:**
+  - 4×4 and 5×4: interference, with accuracy falling below the no-knowledge baseline;
+  - 6×4: loss of a knowledge shortcut.
+
+![Difficulty effects](results/difficulty/difficulty_effects.png)
 
 ## Pipeline
 
@@ -40,10 +50,11 @@ From [docs/report.md](docs/report.md): 120 ZebraLogic templates (40 each of 4×4
 | 2. MCQA knowledge probe, 3 facts per person and model | `src/run_experiment.py probe` (`src/mcqa_probe.py`) | `runs/probe_mcqa_<model>.jsonl` ([method](docs/methods/probe.md)) |
 | 3. Knowledge pools: both / only large / none (strict rule) | `src/build_pools.py` | `data/pools_v3_gemma4.csv` ([method](docs/methods/pools.md)) |
 | 4. True vs shuffled puzzles, round-trip validated | `src/puzzle_variants.py` (`src/zebra_core.py`) | `data/zebralogic_pools_v3.parquet` ([method](docs/methods/variants.md)) |
-| 5. Puzzle evaluation, both models | `src/run_experiment.py eval` (`src/evaluate.py`) | `runs/persons_v3_<model>.jsonl` |
+| 5. Puzzle evaluation, both models (32,768-token budget, streaming) | `src/run_experiment.py eval` (`src/evaluate.py`) | `runs/persons_v3_32k_full_<model>.jsonl` |
 | 6. In-puzzle MCQA (recognition of each shown fact) | `src/run_experiment.py inpuzzle` | `runs/inpuzzle_mcqa_<model>.jsonl` |
 | 7. Statistics | `src/analyze.py` | `results/*.csv` |
-| 8. Figures | `src/plots.py` | `results/*.png` |
+| 8. Effect of puzzle size | `src/analyze_difficulty.py` | `results/difficulty/*.csv` ([report](docs/difficulty.md)) |
+| 9. Figures | `src/plots.py` | `results/*.png`, `results/difficulty/*.png` |
 
 ```bash
 conda env create -f environment.yml && conda activate zebralogic     # or: pip install -r requirements.txt
@@ -56,24 +67,27 @@ python puzzle_variants.py ../data/zebra_grid.parquet ../data/candidates_v3.csv .
 python run_experiment.py eval
 python run_experiment.py inpuzzle
 python analyze.py
+python analyze_difficulty.py
 python plots.py
 ```
 
 All model calls are resumable: outputs are appended as JSONL, and items already done are skipped. Transport errors are retried once.
 
+**Rerun the full set.** At temperature 0, outputs on the vLLM endpoint depend on server state (prefix cache, batching). Rerun the full set rather than only failed or truncated items, so that both conditions of a comparison come from the same run.
+
 **Reproducibility.** With the files in `data/` and the raw model outputs, the code regenerates the committed artefacts exactly:
 
 - the 720 puzzles (`zebralogic_pools_v3.parquet`);
 - the pools (`pools_v3_gemma4.csv`);
-- every table in `results/`.
+- every table in `results/` and `results/difficulty/`.
 
 ## Repository layout
 
 ```
 src/        pipeline code (scripts import each other by module name; run them from src/)
 data/       inputs: ZebraLogic grid file, candidate population, knowledge pools, the 720 puzzles
-results/    analysis tables and figures
-docs/       report.md (full results and discussion) and methods/ (candidates, probe, pools, variants)
+results/    analysis tables and figures (difficulty/: effect of puzzle size)
+docs/       report.md (main results), difficulty.md (puzzle size), methods/ (candidates, probe, pools, variants)
 runs/       raw model outputs (not versioned; see data/README.md)
 ```
 

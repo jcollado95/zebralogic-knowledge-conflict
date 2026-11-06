@@ -1,0 +1,13 @@
+model,size,condition,truncated,n,median_tokens,p90_tokens
+gemma-4-31B-it,4*4,aligned,7,120,1016.0,2081.5000000000095
+gemma-4-31B-it,4*4,conflict,10,120,1174.0,4143.300000000009
+gemma-4-31B-it,5*4,aligned,13,120,1494.5,31641.1
+gemma-4-31B-it,5*4,conflict,24,120,1816.5,31696.3
+gemma-4-31B-it,6*4,aligned,36,120,2929.5,31531.2
+gemma-4-31B-it,6*4,conflict,57,120,23695.5,31564.1
+gemma-4-E4B-it,4*4,aligned,0,120,4191.5,6582.400000000001
+gemma-4-E4B-it,4*4,conflict,0,120,4206.5,6927.1
+gemma-4-E4B-it,5*4,aligned,0,120,6276.5,8940.9
+gemma-4-E4B-it,5*4,conflict,0,120,6184.0,8649.9
+gemma-4-E4B-it,6*4,aligned,0,120,7543.0,9445.0
+gemma-4-E4B-it,6*4,conflict,0,120,7472.0,9678.2

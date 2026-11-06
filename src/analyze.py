@@ -1,7 +1,7 @@
 """Analysis of the knowledge-conflict experiment (true vs shuffled facts, MCQA-defined pools, E4B vs 31B).
 
 Inputs : data/ candidates_v3.csv, zebralogic_pools_v3.parquet
-         runs/ probe_mcqa_<model>.jsonl, persons_v3_<model>.jsonl, inpuzzle_mcqa_<model>.jsonl (see run_experiment.py)
+         runs/ probe_mcqa_<model>.jsonl, persons_v3_32k_full_<model>.jsonl, inpuzzle_mcqa_<model>.jsonl (see run_experiment.py)
 Outputs (results/):
   mcqa_summary.csv, mcqa_by_band_long.csv   knowledge probe accuracy per model x fact (x fame band)
   variants_v3_validation.csv                round-trip validity of the 720 puzzles
@@ -15,6 +15,7 @@ Outputs (results/):
   v3_diff_in_diff.csv                (true - shuffled) in a knowledge pool minus the same gap in 'none'
   v3_facilitation_interference.csv   each condition vs the same condition in 'none', template by template
   v3_sensitivity_no_truncation.csv   true vs shuffled after dropping templates truncated in either condition
+  v3_by_size.csv                     puzzle accuracy by model x size x pool x condition
 Usage: python analyze.py [--config config.json] [--data ../data] [--runs ../runs] [--out ../results]
 """
 import argparse, json, os, sys
@@ -70,7 +71,7 @@ for m in MODELS:
     ip = pd.read_json(os.path.join(RUNS, f'inpuzzle_mcqa_{m}.jsonl'), lines=True)
     rec_flag = {(r.puzzle_key, r.person, r.fact): bool(r.correct) for r in ip.itertuples()}
     recs = {}
-    for l in open(os.path.join(RUNS, f'persons_v3_{m}.jsonl'), encoding='utf-8'):
+    for l in open(os.path.join(RUNS, f'persons_v3_32k_full_{m}.jsonl'), encoding='utf-8'):
         r = json.loads(l)
         if r.get('finish') != 'error': recs[r['uid']] = r
     for uid, r in recs.items():
@@ -145,11 +146,12 @@ Sc = pd.read_csv(os.path.join(A, 'v3_scored.csv')); Ce = pd.read_csv(os.path.joi
 # 4a. recognition-conditioned cell gap within each pool (cluster bootstrap over templates)
 rng1 = np.random.default_rng(1); rows = []
 for (m, p), c in Ce[Ce.recognised.notna()].groupby(['model', 'pool']):
-    c = c.copy(); c['recognised'] = c.recognised.astype(bool)
+    c = c.copy(); c['recognised'] = c.recognised.astype(str).str.lower().eq('true')
     for kn in (True, False):
         g = c[c.recognised == kn]
-        a = g[g.condition == 'aligned'].correct.mean(); s = g[g.condition == 'conflict'].correct.mean()
-        bases = g.base_id.unique(); grp = {b: x for b, x in g.groupby('base_id')}; bs = []
+        if g.empty: continue
+        grp = {b: x for b, x in g.groupby('base_id')}; bases = list(grp)
+        a = g[g.condition == 'aligned'].correct.mean(); s = g[g.condition == 'conflict'].correct.mean(); bs = []
         for _ in range(1000):
             smp = pd.concat([grp[b] for b in rng1.choice(bases, len(bases))])
             bs.append(smp[smp.condition == 'aligned'].correct.mean() - smp[smp.condition == 'conflict'].correct.mean())
@@ -190,3 +192,9 @@ for (m, p), g in Sc.groupby(['model', 'pool']):
     sens.append(dict(model=m, pool=p, n_pairs=len(W), true=a.mean(), shuffled=s.mean(), gap_pp=100 * (a.mean() - s.mean()),
                      true_only=n10, shuffled_only=n01, p=binom2(n10, n10 + n01)))
 pd.DataFrame(sens).to_csv(os.path.join(A, 'v3_sensitivity_no_truncation.csv'), index=False)
+
+# 4e. accuracy by puzzle size
+(Sc.groupby(['model', 'size', 'pool', 'condition'])
+   .agg(n=('puzzle_correct', 'size'), puzzle_acc=('puzzle_correct', 'mean'), truncated=('finish', lambda s: int((s == 'length').sum())),
+        median_tokens=('completion_tokens', 'median'))
+   .reset_index().to_csv(os.path.join(A, 'v3_by_size.csv'), index=False))

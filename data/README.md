@@ -13,13 +13,13 @@ People data comes from Wikidata (CC0). Only public, non-sensitive attributes are
 
 ## Raw model outputs
 
-The raw generation logs, which contain full reasoning traces, are not versioned in git. `run_experiment.py` writes them to `runs/`, and `analyze.py` reads them from there. Decoding is greedy, so reruns on the same vLLM build are near-deterministic. The copies used for the committed results can be shared on request.
+The raw generation logs, which contain full reasoning traces, are not versioned in git. `run_experiment.py` writes them to `runs/`, and `analyze.py` reads them from there. Decoding is at temperature 0, but outputs on the endpoint depend on server state (prefix cache, batching), so reruns are close but not identical. The copies used for the committed results can be shared on request.
 
 | File | MB | Produced by |
 |---|---|---|
 | `probe_mcqa_gemma-4-E4B-it.jsonl` | 5.0 | `run_experiment.py probe` |
 | `probe_mcqa_gemma-4-31B-it.jsonl` | 5.0 | `run_experiment.py probe` |
-| `persons_v3_gemma-4-E4B-it.jsonl` | 10.2 | `run_experiment.py eval` |
-| `persons_v3_gemma-4-31B-it.jsonl` | 5.5 | `run_experiment.py eval` |
+| `persons_v3_32k_full_gemma-4-E4B-it.jsonl` | 11.2 | `run_experiment.py eval` |
+| `persons_v3_32k_full_gemma-4-31B-it.jsonl` | 14.5 | `run_experiment.py eval` |
 | `inpuzzle_mcqa_gemma-4-E4B-it.jsonl` | 1.7 | `run_experiment.py inpuzzle` |
 | `inpuzzle_mcqa_gemma-4-31B-it.jsonl` | 1.7 | `run_experiment.py inpuzzle` |
